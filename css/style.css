@@ -1,0 +1,333 @@
+
+.container__show_do_milhao {
+    height: 100vh;
+    width: 100%;
+    border: 1px dotted black;
+    display: grid;
+    place-items: center;
+}
+
+.area__jogo {
+    background-image: radial-gradient(circle at 50% -20.71%, #a3a7ff 0, #7a8ffc 25%, #3c78f2 50%, #0063e8 75%, #0051de 100%);
+    width: 700px;
+    min-height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.area_jogo__opcoes {
+    border: 1px dashed darkgreen;
+    display: flex;
+    flex-direction: column;
+}
+
+.opcoes__parar {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+}
+
+.opcoes__parar > button {
+    background-image: radial-gradient(circle at 50% -6.82%, #7775ff 0, #4758cd 25%, #0d3b99 50%, #002067 75%, #00003b 100%);
+    color: #fff;
+    font-weight: 600;
+    padding: 3px 20px;
+    border-radius: 10px;
+    border: none;
+    border: 2px solid #fff;
+}
+
+.opcoes__ajuda {
+    padding: 8px;
+}
+
+.opcoes__ajuda > h1 {
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+}
+
+.ajuda__container {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    background-image: radial-gradient(circle at 50% -6.82%, #7775ff 0, #4758cd 25%, #0d3b99 50%, #002067 75%, #00003b 100%);
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 10px;
+    cursor: default;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    
+}
+
+.ajuda__container > button {
+    background-color: transparent;
+}
+
+
+.ajuda__container .ajuda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+.ajuda__container .ajuda:hover {
+    border: 1px solid #fff;
+}
+
+
+.opcoes__valores {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.opcoes__valores .valores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.opcoes__valores .valores > p {
+    background-image: linear-gradient(180deg, #f4dc9b 0, #e7c985 25%, #d8b46c 50%, #c99f54 75%, #bd8d40 100%);
+    width: 90px;
+    padding: 5px 2px;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: darkred;
+    border-radius: 5px;
+    margin-bottom: 0;
+    cursor: default;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.opcoes__valores .valores > span {
+    color:#fff;
+    font-weight: 600;
+    transform: translateY(-5px);
+}
+
+
+
+/** Área pergunta */
+
+.area_jogo__pergunta_alternativas {
+    padding: 10px;
+}
+
+.area_jogo__pergunta {
+    background-image: radial-gradient(circle at 90.56% -7.92%, #ff7e6b 0, #ff6e73 12.5%, #ff5d78 25%, #ff4c7a 37.5%, #f23c78 50%, #d52e74 62.5%, #ba2471 75%, #a21d6e 87.5%, #8d1a6c 100%);
+    color: #fff;
+    text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.2), 
+               1px 1px 1px rgba(0, 0, 0, 0.6);
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: justify;
+    font-weight: 500;
+}
+
+
+.area_jogo__alternativas .alternativa {
+    cursor: pointer;
+    display: flex;
+    background-image: radial-gradient(circle at 90.56% -7.92%, #ff7e6b 0, #ff6e73 12.5%, #ff5d78 25%, #ff4c7a 37.5%, #f23c78 50%, #d52e74 62.5%, #ba2471 75%, #a21d6e 87.5%, #8d1a6c 100%);
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    gap: 10px;
+    margin-right: 20px;
+    
+}
+
+
+.area_jogo__alternativas .alternativa .alternativa__num {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #fff;
+    color: #0C3995;
+    font-weight: 700;
+    display: grid;
+    place-items: center;
+}
+
+
+
+.area_jogo__alternativas .alternativa .alternativa__desc {
+    text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.2), 
+               1px 1px 1px rgba(0, 0, 0, 0.6);
+}
+
+
+.alternativa__correta {
+    background-image: radial-gradient(circle at 85.36% -11.24%, #f09c3e 0, #e2a033 5.56%, #d4a227 11.11%, #c3a41b 16.67%, #b0a50d 22.22%, #9ca500 27.78%, #85a400 33.33%, #6ba200 38.89%, #4b9f03 44.44%, #119b11 50%, #00961e 55.56%, #00922c 61.11%, #008d3a 66.67%, #008949 72.22%, #008559 77.78%, #008269 83.33%, #007f7b 88.89%, #007d8c 94.44%, #007b9e 100%) !important;
+    font-weight: 500;
+}
+
+
+.alternativa__num_selecionado {
+    background-image: linear-gradient(180deg, #f4dc9b 0, #e7c985 25%, #d8b46c 50%, #c99f54 75%, #bd8d40 100%) !important;
+    color: darkred !important;
+}
+
+.alternativa__selecionada {
+    border: 2px solid #bd8d40 !important;
+    font-weight: 600;
+}
+
+
+.certo__disso {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.certo__disso > h1 {
+    border: 2px solid darkred;
+    color: darkred;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+}
+
+.certo_disso__botoes {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.tooltip-right button {
+    width: 80px;
+    margin: 0 10px;
+}
+
+
+.tooltip-right button:hover {
+    text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.2), 
+    1px 1px 1px rgba(0, 0, 0, 0.6);
+    border: 2px solid darkgoldenrod !important;
+}
+
+#btn-sim {
+    border: 2px solid #fff;
+    background-image: radial-gradient(circle at 50% -6.82%, #7775ff 0, #4758cd 25%, #0d3b99 50%, #002067 75%, #00003b 100%);
+}
+
+#btn-nao {
+    border: 2px solid #fff;
+    background-image: radial-gradient(circle at 90.56% -7.92%, #ff7e6b 0, #ff6e73 12.5%, #ff5d78 25%, #ff4c7a 37.5%, #f23c78 50%, #d52e74 62.5%, #ba2471 75%, #a21d6e 87.5%, #8d1a6c 100%);
+}
+
+.modal-content {
+    background-color: rgb(171 165 165 / 93%);
+}
+
+
+
+/** Area Jogo Mensagens */ 
+.area_jogo__mensagens {
+    border: 1px dashed #fff;
+
+    height: 150px;
+    padding: 15px;
+}
+
+.tooltip-right {
+    text-align: center;
+}
+
+.tooltip-right p {
+    font-weight: 500;
+}
+
+.tooltip-right {
+  /* Modify size here: */
+  --size: 50px;
+  --padding: 10px;
+
+  position: relative;
+  background: #e4e2e2;
+  padding: var(--padding);
+}
+
+.tooltip-right:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: #e4e2e2;
+  height: 16px;
+  width: 16px;
+}
+
+
+/** cartas */
+
+#cartas {
+    min-height: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    align-items: center;
+}
+
+#cartas .carta {
+    width: 40px;
+    height: 60px;
+    background-image: url('../img/carta_verso.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.carta__selecionada {
+    transform: scale(120%);
+    border: 1px solid darkgoldenrod;
+    border-radius: 2px;
+}
+
+.carta_a {
+    background-color: #fff;
+    background-image: url('../img/carta_a.png') !important;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+
+.carta_2 {
+    background-color: #fff;
+    background-image: url('../img/carta_2.png') !important;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.carta_3 {
+    background-color: #fff;
+    background-image: url('../img/carta_3.png') !important;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+
+.carta_reis {
+    background-color: #fff;
+    background-image: url('../img/carta_reis.png') !important;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+
