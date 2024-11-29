@@ -277,6 +277,30 @@
   width: 16px;
 }
 
+.tooltip-top {
+    /* Modify size here: */
+    --size: 70px;
+    --padding: 20px;
+  
+    position: relative;
+    width: calc(var(--size) - var(--padding));
+    /*height: calc(var(--size) / 2);*/
+    height: 50px;
+    background: #E5DBFF;
+    padding: var(--padding);
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  }
+  
+  .tooltip-top:after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #E5DBFF;
+    height: 16px;
+    width: 16px;
+  }
 
 /** cartas */
 
@@ -330,4 +354,32 @@
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
+
+.placas__convidados {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    justify-items: center;
+
+}
+
+.convidado h3 {
+    transform: translateY(-30%); 
+}
+
+
+.placas__participantes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+
+.placas__participantes > div {
+    background-color: #E5DBFF;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    font-weight: 700;
+    color: #002067; 
+}
 
