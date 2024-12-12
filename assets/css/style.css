@@ -142,6 +142,7 @@
 .area_jogo__alternativas .alternativa {
     cursor: pointer;
     display: flex;
+    width: 100%;
     background-image: radial-gradient(circle at 90.56% -7.92%, #ff7e6b 0, #ff6e73 12.5%, #ff5d78 25%, #ff4c7a 37.5%, #f23c78 50%, #d52e74 62.5%, #ba2471 75%, #a21d6e 87.5%, #8d1a6c 100%);
     color: #fff;
     border: 2px solid #fff;
@@ -381,5 +382,20 @@
     box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
     font-weight: 700;
     color: #002067; 
+}
+
+.background__pergunta {
+    background-color: #00003b;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.background_pergunta__container {
+    width: 400px;
+    height: 300px;
+    border: 1px solid green;
 }
 

@@ -1,0 +1,134 @@
+{
+    "pergunta": [
+        {
+            "id": "NV2001",
+            "nivel": 2,
+            "tema": "Geografia",
+            "pergunta": "Qual é o maior deserto do mundo?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Deserto do Saara" },
+                { "id_alt": 2, "alternativa": "Deserto da Arábia" },
+                { "id_alt": 3, "alternativa": "Deserto de Gobi" },
+                { "id_alt": 4, "alternativa": "Antártida" }
+            ],
+            "correta": 4
+        },
+        {
+            "id": "NV2002",
+            "nivel": 2,
+            "tema": "História",
+            "pergunta": "Em que ano ocorreu a Revolução Francesa?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "1789" },
+                { "id_alt": 2, "alternativa": "1776" },
+                { "id_alt": 3, "alternativa": "1804" },
+                { "id_alt": 4, "alternativa": "1815" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV2003",
+            "nivel": 2,
+            "tema": "Ciência",
+            "pergunta": "Qual é o elemento químico representado pelo símbolo 'O'?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Ouro" },
+                { "id_alt": 2, "alternativa": "Oxigênio" },
+                { "id_alt": 3, "alternativa": "Osmium" },
+                { "id_alt": 4, "alternativa": "Ósmio" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV2004",
+            "nivel": 2,
+            "tema": "Matemática",
+            "pergunta": "Qual é o valor de π (pi) arredondado a duas casas decimais?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "3,12" },
+                { "id_alt": 2, "alternativa": "3,14" },
+                { "id_alt": 3, "alternativa": "3,16" },
+                { "id_alt": 4, "alternativa": "3,18" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV2005",
+            "nivel": 2,
+            "tema": "Literatura",
+            "pergunta": "Quem escreveu 'O Senhor dos Anéis'?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "J.K. Rowling" },
+                { "id_alt": 2, "alternativa": "George R.R. Martin" },
+                { "id_alt": 3, "alternativa": "J.R.R. Tolkien" },
+                { "id_alt": 4, "alternativa": "C.S. Lewis" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV2006",
+            "nivel": 2,
+            "tema": "Geografia",
+            "pergunta": "Qual é o rio mais longo do mundo?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Rio Nilo" },
+                { "id_alt": 2, "alternativa": "Rio Amazonas" },
+                { "id_alt": 3, "alternativa": "Rio Yangtzé" },
+                { "id_alt": 4, "alternativa": "Rio Mississippi" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV2007",
+            "nivel": 2,
+            "tema": "História",
+            "pergunta": "Quem foi o líder do movimento dos direitos civis nos EUA, conhecido por seu discurso 'Eu Tenho um Sonho'?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Malcolm X" },
+                { "id_alt": 2, "alternativa": "Martin Luther King Jr." },
+                { "id_alt": 3, "alternativa": "Rosa Parks" },
+                { "id_alt": 4, "alternativa": "Nelson Mandela" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV2008",
+            "nivel": 2,
+            "tema": "Ciência",
+            "pergunta": "Qual é a unidade básica da vida?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Átomo" },
+                { "id_alt": 2, "alternativa": "Molécula" },
+                { "id_alt": 3, "alternativa": "Célula" },
+                { "id_alt": 4, "alternativa": "Tecido" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV2009",
+            "nivel": 2,
+            "tema": "Matemática",
+            "pergunta": "Qual é a raiz quadrada de 144?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "10" },
+                { "id_alt": 2, "alternativa": "11" },
+                { "id_alt": 3, "alternativa": "12" },
+                { "id_alt": 4, "alternativa": "13" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV2010",
+            "nivel": 2,
+            "tema": "Esportes",
+            "pergunta": "Em que ano o Brasil ganhou sua primeira Copa do Mundo de Futebol?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "1950" },
+                { "id_alt": 2, "alternativa": "1958" },
+                { "id_alt": 3, "alternativa": "1962" },
+                { "id_alt": 4, "alternativa": "1970" }
+            ],
+            "correta": 2
+        }
+    ]
+}

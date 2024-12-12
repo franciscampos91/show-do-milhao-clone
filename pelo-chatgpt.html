@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: white;
+  text-align: center;
+}
+
+.game-container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  background-color: #222;
+  border-radius: 10px;
+}
+
+.options button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background-color: #444;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.options button:hover {
+  background-color: #555;
+}
+
+    </style>
+</head>
+<body>
+    <div class="game-container">
+        <h1>Show do Milhão</h1>
+        <div class="question">
+          <p id="pergunta-texto">Aqui vai a pergunta</p>
+        </div>
+        <div class="options">
+          <button class="option">A. Opção 1</button>
+          <button class="option">B. Opção 2</button>
+          <button class="option">C. Opção 3</button>
+          <button class="option">D. Opção 4</button>
+        </div>
+        <div class="progress">
+          <p>Pergunta: <span id="progresso">1/16</span></p>
+          <p>Prêmio acumulado: <span id="premio">R$ 0</span></p>
+        </div>
+      </div>
+      
+</body>
+</html>

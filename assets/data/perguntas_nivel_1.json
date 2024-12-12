@@ -1,0 +1,200 @@
+{
+    "pergunta": [
+        { 
+            "id": "NV1001",
+            "nivel": 1,
+            "tema": "Geografia",
+            "pergunta": "Qual é a capital do Brasil?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Brasília" },
+                { "id_alt": 2, "alternativa": "Rio de Janeiro" },
+                { "id_alt": 3, "alternativa": "São Paulo" },
+                { "id_alt": 4, "alternativa": "Salvador" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV1002",
+            "nivel": 1,
+            "tema": "História",
+            "pergunta": "Quem foi o primeiro presidente do Brasil?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Getúlio Vargas" },
+                { "id_alt": 2, "alternativa": "Juscelino Kubitschek" },
+                { "id_alt": 3, "alternativa": "Deodoro da Fonseca" },
+                { "id_alt": 4, "alternativa": "Dom Pedro II" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV1003",
+            "nivel": 1,
+            "tema": "Ciência",
+            "pergunta": "Quantos planetas existem no Sistema Solar?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "7" },
+                { "id_alt": 2, "alternativa": "8" },
+                { "id_alt": 3, "alternativa": "9" },
+                { "id_alt": 4, "alternativa": "10" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV1004",
+            "nivel": 1,
+            "tema": "Cultura Geral",
+            "pergunta": "Qual é o maior país do mundo em extensão territorial?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Estados Unidos" },
+                { "id_alt": 2, "alternativa": "Canadá" },
+                { "id_alt": 3, "alternativa": "Brasil" },
+                { "id_alt": 4, "alternativa": "Rússia" }
+            ],
+            "correta": 4
+        },
+        {
+            "id": "NV1005",
+            "nivel": 1,
+            "tema": "Esportes",
+            "pergunta": "Qual é o esporte mais popular do Brasil?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Vôlei" },
+                { "id_alt": 2, "alternativa": "Futebol" },
+                { "id_alt": 3, "alternativa": "Basquete" },
+                { "id_alt": 4, "alternativa": "Tênis" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV1006",
+            "nivel": 1,
+            "tema": "Cultura Geral",
+            "pergunta": "Qual é o animal conhecido como 'Rei da Selva'?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Tigre" },
+                { "id_alt": 2, "alternativa": "Elefante" },
+                { "id_alt": 3, "alternativa": "Leão" },
+                { "id_alt": 4, "alternativa": "Gorila" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV1007",
+            "nivel": 1,
+            "tema": "História",
+            "pergunta": "Em que ano o homem pisou na Lua pela primeira vez?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "1965" },
+                { "id_alt": 2, "alternativa": "1969" },
+                { "id_alt": 3, "alternativa": "1971" },
+                { "id_alt": 4, "alternativa": "1973" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV1008",
+            "nivel": 1,
+            "tema": "Geografia",
+            "pergunta": "Qual é o maior oceano do mundo?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Atlântico" },
+                { "id_alt": 2, "alternativa": "Índico" },
+                { "id_alt": 3, "alternativa": "Ártico" },
+                { "id_alt": 4, "alternativa": "Pacífico" }
+            ],
+            "correta": 4
+        },
+        {
+            "id": "NV1009",
+            "nivel": 1,
+            "tema": "Cultura Geral",
+            "pergunta": "Quem escreveu 'Dom Casmurro'?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Machado de Assis" },
+                { "id_alt": 2, "alternativa": "José de Alencar" },
+                { "id_alt": 3, "alternativa": "Monteiro Lobato" },
+                { "id_alt": 4, "alternativa": "Graciliano Ramos" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV1010",
+            "nivel": 1,
+            "tema": "Ciência",
+            "pergunta": "Qual é o estado físico da água em temperatura ambiente?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Sólido" },
+                { "id_alt": 2, "alternativa": "Líquido" },
+                { "id_alt": 3, "alternativa": "Gasoso" },
+                { "id_alt": 4, "alternativa": "Plasma" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV1011",
+            "nivel": 1,
+            "tema": "Matemática",
+            "pergunta": "Quanto é 7 + 5?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "10" },
+                { "id_alt": 2, "alternativa": "12" },
+                { "id_alt": 3, "alternativa": "14" },
+                { "id_alt": 4, "alternativa": "15" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV1012",
+            "nivel": 1,
+            "tema": "Geografia",
+            "pergunta": "Qual é o menor continente em tamanho?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Ásia" },
+                { "id_alt": 2, "alternativa": "Antártida" },
+                { "id_alt": 3, "alternativa": "Oceania" },
+                { "id_alt": 4, "alternativa": "Europa" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV1013",
+            "nivel": 1,
+            "tema": "Cultura Geral",
+            "pergunta": "Qual é o nome do personagem principal de 'O Pequeno Príncipe'?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "O Príncipe" },
+                { "id_alt": 2, "alternativa": "O Aviador" },
+                { "id_alt": 3, "alternativa": "O Pequeno Príncipe" },
+                { "id_alt": 4, "alternativa": "A Rosa" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV1014",
+            "nivel": 1,
+            "tema": "História",
+            "pergunta": "Quem descobriu o Brasil?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Pedro Álvares Cabral" },
+                { "id_alt": 2, "alternativa": "Cristóvão Colombo" },
+                { "id_alt": 3, "alternativa": "Américo Vespúcio" },
+                { "id_alt": 4, "alternativa": "Vasco da Gama" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV1015",
+            "nivel": 1,
+            "tema": "Esportes",
+            "pergunta": "Quantos jogadores formam um time de futebol em campo?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "9" },
+                { "id_alt": 2, "alternativa": "10" },
+                { "id_alt": 3, "alternativa": "11" },
+                { "id_alt": 4, "alternativa": "12" }
+            ],
+            "correta": 3
+        }
+        
+    ]
+}

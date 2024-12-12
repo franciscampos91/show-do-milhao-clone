@@ -15,7 +15,7 @@
 
 
     <!--Folha de Estilo -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
 
 </head>
@@ -31,61 +31,61 @@
         <div class="area_jogo__pergunta_alternativas">
             
             <div class="area_jogo__pergunta">
-                Qual o nome do cachorro campeão do concurso do mercado Pilar da Terra?
+                <span id="pergunta"></span>
             </div>
 
             <div class="area_jogo__alternativas">
-                <div class="alternativa">
-                    <div class="alternativa__num">
+                <button class="alternativa" onclick="voceEstaCertoDisso('1')" id="btn_1">
+                    <div class="alternativa__num" id="num_1">
                         1
                     </div>
                     <div class="alternativa__desc">
-                        <span id="alt-um">Princesa</span>
+                        <span id="alt-um"></span>
                     </div>
-                </div>
+                </button>
 
-                <div class="alternativa alternativa__selecionada">
-                    <div class="alternativa__num alternativa__num_selecionado">
+                <button class="alternativa" id="btn_2" onclick="voceEstaCertoDisso('2')">
+                    <div class="alternativa__num" id="num_2">
                         2
                     </div>
                     <div class="alternativa__desc ">
-                        <span id="alt-dois">Pandora</span>
+                        <span id="alt-dois"></span>
                     </div>
-                </div>
+                </button>
 
-                <div class="alternativa alternativa__correta">
-                    <div class="alternativa__num">
+                <button class="alternativa" onclick="voceEstaCertoDisso('3')" id="btn_3">
+                    <div class="alternativa__num" id="num_3">
                         3
                     </div>
                     <div class="alternativa__desc">
-                        <span id="alt-tres">Pandinha</span>
+                        <span id="alt-tres"></span>
                     </div>
-                </div>
+                </button>
 
-                <div class="alternativa">
-                    <div class="alternativa__num">
+                <button class="alternativa" onclick="voceEstaCertoDisso('4')" id="btn_4">
+                    <div class="alternativa__num" id="num_4">
                         4
                     </div>
                     <div class="alternativa__desc">
-                        <span id="alt-quatro">Jorelzinho</span>                        
+                        <span id="alt-quatro"></span>                        
                     </div>
-                </div>
+                </button>
             </div>
 
             <div class="opcoes__valores">
                 <div class="valores">
-                    <p>0</p>
+                    <p id="se_errar">0</p>
                     <span>Errar</span>
                 </div>
 
                 <div class="valores">
-                    <p>0</p>
+                    <p id="se_parar">0</p>
                     <span>Parar</span>
                 </div>
 
 
                 <div class="valores">
-                    <p>100 MIL</p>
+                    <p id="se_acertar"> MIL</p>
                     <span>Acertar</span>
                 </div>
             </div>
@@ -104,7 +104,7 @@
 
                 <div id="caixa_mensagem" class="tooltip-right">
 
-                    <div id="certo_disso" hidden>
+                    <div id="certo_disso" style="display: none;">
                         <p>Você está certo disso?</p>
                         <div class="container__botoes">
                             <button class="btn btn-dark" id="btn-sim">Sim</button>
@@ -148,7 +148,7 @@
                     </div>
 
 
-                    <div id="placas">
+                    <div id="placas" hidden>
                         <h5 style="display: flex; gap: 10px;">
                             <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
                             width="22" viewBox="0 0 512.000000 512.000000"
@@ -404,4 +404,7 @@
 
     
 </body>
+
+<script src="assets/js/script.js"></script>
+
 </html>
