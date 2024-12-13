@@ -345,8 +345,7 @@ function habilitaAlternativas() {
 }
 
 function ajudaPlacas() {
-
-    caixaMensagem.innerHTML = `
+  caixaMensagem.innerHTML = `
                             <div id="placas">
                                 <h5> Placas</h5>
                                 <div class="placas__participantes">
@@ -371,96 +370,166 @@ function ajudaPlacas() {
                             </div>
                             `;
 
-    decisaoPlacas();
+  decisaoPlacas();
 }
 
 function decisaoPlacas() {
-    // Definir a probabilidade de acerto de acordo com o nível da pergunta
-    let probabilidadeAcerto;
-  
-    // Definir a probabilidade com base no nível da pergunta
-    switch (nivelPergunta) {
+  // Definir a probabilidade de acerto de acordo com o nível da pergunta
+  let probabilidadeAcerto;
+
+  // Definir a probabilidade com base no nível da pergunta
+  switch (nivelPergunta) {
+    case 1:
+      probabilidadeAcerto = Math.random() * 0.3 + 0.7; // entre 70% e 100%
+      break;
+    case 2:
+      probabilidadeAcerto = Math.random() * 0.35 + 0.6; // entre 60% e 95%
+      break;
+    case 3:
+      probabilidadeAcerto = Math.random() * 0.3 + 0.5; // entre 50% e 80%
+      break;
+    default:
+      probabilidadeAcerto = 0.7; // Por padrão, 70% para níveis não esperados
+  }
+
+  // Contadores para cada alternativa
+  let contador1 = 0;
+  let contador2 = 0;
+  let contador3 = 0;
+  let contador4 = 0;
+
+  // Loop para preencher as 11 placas
+  for (let i = 1; i <= 11; i++) {
+    let escolha = Math.random(); // Gera um número aleatório entre 0 e 1
+
+    // Determina a escolha do participante na placa
+    let alternativaEscolhida;
+    if (escolha < probabilidadeAcerto) {
+      // Se o número aleatório for menor que a probabilidade de acerto, escolhe a resposta correta
+      alternativaEscolhida = respostaCorreta;
+    } else {
+      // Caso contrário, escolhe uma alternativa incorreta aleatória
+      alternativaEscolhida = Math.floor(Math.random() * 4) + 1;
+
+      // Se a alternativa escolhida for a correta, escolhe novamente até ser errada
+      while (alternativaEscolhida === respostaCorreta) {
+        alternativaEscolhida = Math.floor(Math.random() * 4) + 1;
+      }
+    }
+
+    // Preencher o innerHTML da placa com o número da alternativa escolhida
+    document.getElementById(`pp_${i}`).innerHTML = alternativaEscolhida;
+
+    // Contabilizar as escolhas
+    switch (alternativaEscolhida) {
       case 1:
-        probabilidadeAcerto = Math.random() * 0.3 + 0.7; // entre 70% e 100%
+        contador1++;
         break;
       case 2:
-        probabilidadeAcerto = Math.random() * 0.35 + 0.6; // entre 60% e 95%
+        contador2++;
         break;
       case 3:
-        probabilidadeAcerto = Math.random() * 0.3 + 0.5; // entre 50% e 80%
+        contador3++;
         break;
-      default:
-        probabilidadeAcerto = 0.7; // Por padrão, 70% para níveis não esperados
+      case 4:
+        contador4++;
+        break;
     }
-  
-    // Contadores para cada alternativa
-    let contador1 = 0;
-    let contador2 = 0;
-    let contador3 = 0;
-    let contador4 = 0;
-  
-    // Loop para preencher as 11 placas
-    for (let i = 1; i <= 11; i++) {
-      let escolha = Math.random(); // Gera um número aleatório entre 0 e 1
-  
-      // Determina a escolha do participante na placa
-      let alternativaEscolhida;
-      if (escolha < probabilidadeAcerto) {
-        // Se o número aleatório for menor que a probabilidade de acerto, escolhe a resposta correta
-        alternativaEscolhida = respostaCorreta;
-      } else {
-        // Caso contrário, escolhe uma alternativa incorreta aleatória
-        alternativaEscolhida = Math.floor(Math.random() * 4) + 1;
-  
-        // Se a alternativa escolhida for a correta, escolhe novamente até ser errada
-        while (alternativaEscolhida === respostaCorreta) {
-          alternativaEscolhida = Math.floor(Math.random() * 4) + 1;
-        }
-      }
-  
-      // Preencher o innerHTML da placa com o número da alternativa escolhida
-      document.getElementById(`pp_${i}`).innerHTML = alternativaEscolhida;
-  
-      // Contabilizar as escolhas
-      switch (alternativaEscolhida) {
-        case 1:
-          contador1++;
-          break;
-        case 2:
-          contador2++;
-          break;
-        case 3:
-          contador3++;
-          break;
-        case 4:
-          contador4++;
-          break;
-      }
-    }
-  
-    // Calcular a porcentagem de cada escolha
-    const totalParticipantes = 11; // Total de placas (participantes)
-    const percentual1 = (contador1 / totalParticipantes) * 100;
-    const percentual2 = (contador2 / totalParticipantes) * 100;
-    const percentual3 = (contador3 / totalParticipantes) * 100;
-    const percentual4 = (contador4 / totalParticipantes) * 100;
-  
-    // Encontrar a maior escolha
-    const maiorPorcentagem = Math.max(percentual1, percentual2, percentual3, percentual4);
-    let escolhaMaioria;
-    if (maiorPorcentagem === percentual1) escolhaMaioria = 1;
-    if (maiorPorcentagem === percentual2) escolhaMaioria = 2;
-    if (maiorPorcentagem === percentual3) escolhaMaioria = 3;
-    if (maiorPorcentagem === percentual4) escolhaMaioria = 4;
-  
-    // Exibir no console
-    console.log(`A maioria escolheu: ${escolhaMaioria} (${maiorPorcentagem.toFixed(2)}%)`);
-  
-    // Desabilitar o botão após a execução
-    document.getElementById("btn-placas").setAttribute("disabled", "");
-    document.getElementById("btn-placas").classList = "ajuda btn_disabled";
   }
-  
+
+  // Calcular a porcentagem de cada escolha
+  const totalParticipantes = 11; // Total de placas (participantes)
+  const percentual1 = (contador1 / totalParticipantes) * 100;
+  const percentual2 = (contador2 / totalParticipantes) * 100;
+  const percentual3 = (contador3 / totalParticipantes) * 100;
+  const percentual4 = (contador4 / totalParticipantes) * 100;
+
+  // Encontrar a maior escolha
+  const maiorPorcentagem = Math.max(
+    percentual1,
+    percentual2,
+    percentual3,
+    percentual4
+  );
+  let escolhaMaioria;
+  if (maiorPorcentagem === percentual1) escolhaMaioria = 1;
+  if (maiorPorcentagem === percentual2) escolhaMaioria = 2;
+  if (maiorPorcentagem === percentual3) escolhaMaioria = 3;
+  if (maiorPorcentagem === percentual4) escolhaMaioria = 4;
+
+  // Exibir no console
+  console.log(
+    `A maioria escolheu: ${escolhaMaioria} (${maiorPorcentagem.toFixed(2)}%)`
+  );
+
+  // Desabilitar o botão após a execução
+  document.getElementById("btn-placas").setAttribute("disabled", "");
+  document.getElementById("btn-placas").classList = "ajuda btn_disabled";
+}
+
+function ajudaConvidados() {
+  caixaMensagem.innerHTML = `
+                                <div id="convidados" >
+                                    <h5>Convidados</h5>
+                                    <div class="placas__convidados">
+                                        <div class="convidado tooltip-top">
+                                            <h3 id="convidado_1"></h3>
+                                        </div>
+                                        <div class="convidado tooltip-top">
+                                            <h3 id="convidado_2"></h3>
+                                        </div>
+                                        <div class="convidado tooltip-top">
+                                            <h3 id="convidado_3"></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                `;
+  decisaoConvidados();
+  // Desabilitar o botão após a execução
+  document.getElementById("btn-convidados").setAttribute("disabled", "");
+  document.getElementById("btn-convidados").classList = "ajuda btn_disabled";
+}
+
+function decisaoConvidados() {
+  // Probabilidade de acerto de acordo com o nível da pergunta
+  let acertoProbabilidade = [];
+
+  // Definir a probabilidade com base no nível da pergunta
+  switch (nivelPergunta) {
+    case 1: // Nível fácil (tudo correto)
+      acertoProbabilidade = [respostaCorreta, respostaCorreta, respostaCorreta];
+      break;
+    case 2: // Nível médio (distribuição equilibrada)
+      acertoProbabilidade = [
+        respostaCorreta,
+        respostaCorreta,
+        Math.floor(Math.random() * 4) + 1,
+      ];
+      while (acertoProbabilidade[2] === respostaCorreta) {
+        acertoProbabilidade[2] = Math.floor(Math.random() * 4) + 1;
+      }
+      break;
+    case 3: // Nível difícil (maioria errada)
+      acertoProbabilidade = [
+        respostaCorreta,
+        respostaCorreta,
+        Math.floor(Math.random() * 4) + 1,
+      ];
+      while (acertoProbabilidade[2] === respostaCorreta) {
+        acertoProbabilidade[2] = Math.floor(Math.random() * 4) + 1;
+      }
+      break;
+    default:
+      acertoProbabilidade = [respostaCorreta, respostaCorreta, respostaCorreta];
+      break;
+  }
+
+  // Preencher as respostas dos convidados
+  for (let i = 1; i <= 3; i++) {
+    document.getElementById(`convidado_${i}`).innerHTML =
+      acertoProbabilidade[i - 1];
+  }
+}
 
 function pular() {
   if (pulos == 3) {
