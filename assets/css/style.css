@@ -36,6 +36,10 @@
     border-radius: 10px;
     border: none;
     border: 2px solid #fff;
+
+    background-image: radial-gradient(circle at 90.56% -7.92%, #ff7e6b 0, #ff6e73 12.5%, #ff5d78 25%, #ff4c7a 37.5%, #f23c78 50%, #d52e74 62.5%, #ba2471 75%, #a21d6e 87.5%, #8d1a6c 100%);
+    color: #fff;
+    border: 2px solid #fff;
 }
 
 .opcoes__ajuda {
@@ -50,7 +54,7 @@
 
 .ajuda__container {
     width: 100%;
-    height: 150px;
+    height: 200px;
     border-radius: 10px;
     background-image: radial-gradient(circle at 50% -6.82%, #7775ff 0, #4758cd 25%, #0d3b99 50%, #002067 75%, #00003b 100%);
     border: 2px solid #fff;
@@ -245,14 +249,12 @@
 
 /** Area Jogo Mensagens */ 
 .area_jogo__mensagens {
-    border: 1px dashed #fff;
-
-    height: 150px;
     padding: 15px;
 }
 
 .tooltip-right {
     text-align: center;
+    height: 160px;
 }
 
 .tooltip-right p {

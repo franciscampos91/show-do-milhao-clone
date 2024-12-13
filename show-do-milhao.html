@@ -1,280 +1,278 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Show do Milhão</title>
 
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
 
     <!--Folha de Estilo -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
 
-
-</head>
-
-<body>
-
-<div class="container__show_do_milhao">
-
-
-    <div class="area__jogo">
-
-        
+  <body>
+    <div class="container__show_do_milhao">
+      <div class="area__jogo">
         <div class="area_jogo__pergunta_alternativas">
-            
-            <div class="area_jogo__pergunta">
-                <span id="pergunta"></span>
+          <div class="area_jogo__pergunta">
+            <span id="pergunta"></span>
+          </div>
+
+          <div class="area_jogo__alternativas">
+            <button
+              class="alternativa"
+              onclick="voceEstaCertoDisso('1')"
+              id="btn_1"
+            >
+              <div class="alternativa__num" id="num_1">1</div>
+              <div class="alternativa__desc">
+                <span id="alt-um"></span>
+              </div>
+            </button>
+
+            <button
+              class="alternativa"
+              id="btn_2"
+              onclick="voceEstaCertoDisso('2')"
+            >
+              <div class="alternativa__num" id="num_2">2</div>
+              <div class="alternativa__desc">
+                <span id="alt-dois"></span>
+              </div>
+            </button>
+
+            <button
+              class="alternativa"
+              onclick="voceEstaCertoDisso('3')"
+              id="btn_3"
+            >
+              <div class="alternativa__num" id="num_3">3</div>
+              <div class="alternativa__desc">
+                <span id="alt-tres"></span>
+              </div>
+            </button>
+
+            <button
+              class="alternativa"
+              onclick="voceEstaCertoDisso('4')"
+              id="btn_4"
+            >
+              <div class="alternativa__num" id="num_4">4</div>
+              <div class="alternativa__desc">
+                <span id="alt-quatro"></span>
+              </div>
+            </button>
+          </div>
+
+          <div class="opcoes__valores">
+            <div class="valores">
+              <p id="se_errar">0</p>
+              <span>Errar</span>
             </div>
 
-            <div class="area_jogo__alternativas">
-                <button class="alternativa" onclick="voceEstaCertoDisso('1')" id="btn_1">
-                    <div class="alternativa__num" id="num_1">
-                        1
-                    </div>
-                    <div class="alternativa__desc">
-                        <span id="alt-um"></span>
-                    </div>
-                </button>
-
-                <button class="alternativa" id="btn_2" onclick="voceEstaCertoDisso('2')">
-                    <div class="alternativa__num" id="num_2">
-                        2
-                    </div>
-                    <div class="alternativa__desc ">
-                        <span id="alt-dois"></span>
-                    </div>
-                </button>
-
-                <button class="alternativa" onclick="voceEstaCertoDisso('3')" id="btn_3">
-                    <div class="alternativa__num" id="num_3">
-                        3
-                    </div>
-                    <div class="alternativa__desc">
-                        <span id="alt-tres"></span>
-                    </div>
-                </button>
-
-                <button class="alternativa" onclick="voceEstaCertoDisso('4')" id="btn_4">
-                    <div class="alternativa__num" id="num_4">
-                        4
-                    </div>
-                    <div class="alternativa__desc">
-                        <span id="alt-quatro"></span>                        
-                    </div>
-                </button>
+            <div class="valores">
+              <p id="se_parar">0</p>
+              <span>Parar</span>
             </div>
 
-            <div class="opcoes__valores">
-                <div class="valores">
-                    <p id="se_errar">0</p>
-                    <span>Errar</span>
-                </div>
-
-                <div class="valores">
-                    <p id="se_parar">0</p>
-                    <span>Parar</span>
-                </div>
-
-
-                <div class="valores">
-                    <p id="se_acertar"> MIL</p>
-                    <span>Acertar</span>
-                </div>
+            <div class="valores">
+              <p id="se_acertar">MIL</p>
+              <span>Acertar</span>
             </div>
-
+          </div>
         </div>
 
-
         <div class="area_jogo__opcoes">
+          <div class="area_jogo__jogador">
+            <h4>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="34"
+                height="32"
+                fill="currentColor"
+                class="bi bi-person-circle"
+                viewBox="0 0 16 16"
+              >
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                <path
+                  fill-rule="evenodd"
+                  d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"
+                />
+              </svg>
+              Jogador
+            </h4>
+          </div>
 
-            <div class="area_jogo__jogador" >
-                <h3>Jogador</h3>
-            </div>
-
-            <div class="area_jogo__mensagens">
-                
-
-                <div id="caixa_mensagem" class="tooltip-right">
-
-                    <div id="certo_disso" style="display: none;">
-                        <p>Você está certo disso?</p>
-                        <div class="container__botoes">
-                            <button class="btn btn-dark" id="btn-sim">Sim</button>
-                            <button class="btn btn-danger" id="btn-nao">Não</button>
-                        </div>
-                    </div>
-
-                    <div id="pular" hidden>
-                        <p>Deseja pular?</p>
-                        <div class="container__botoes">
-                            <button class="btn btn-dark" id="btn-sim">Sim</button>
-                            <button class="btn btn-danger" id="btn-nao">Não</button>
-                        </div>
-                    </div>
-
-
-                    <div id="cartas" hidden>
-                        <div class="carta carta_a"></div>
-                        <div class="carta carta_2"></div>
-                        <div class="carta carta__selecionada carta_3"></div>
-                        <div class="carta carta_reis"></div>
-
-                    </div>
-
-
-                    <div id="convidados" hidden>
-                        <h5>Convidados</h5>
-                        <div class="placas__convidados">
-                            <div class="convidado tooltip-top">
-                                <h3>1</h3>
-                            </div>
-                            <div class="convidado tooltip-top">
-                                <h3>2</h3>
-                            </div>
-                            <div class="convidado tooltip-top">
-                                <h3>3</h3>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div id="placas" hidden>
-                        <h5> Placas</h5>
-                        <div class="placas__participantes">
-                            <div class="linha__placas_participantes">
-                                <div><span id="pp_1"></span></div>
-                                <div><span id="pp_2"></span></div>
-                                <div><span id="pp_3"></span></div>
-                                <div><span id="pp_4"></span></div>
-                            </div>
-                            <div class="linha__placas_participantes">
-                                <div><span id="pp_5"></span></div>
-                                <div><span id="pp_6"></span></div>
-                                <div><span id="pp_7"></span></div>
-                                <div><span id="pp_8"></span></div>                                
-                            </div>
-                            <div class="linha__placas_participantes">
-                                <div><span id="pp_9"></span></div>
-                                <div><span id="pp_10"></span></div>
-                                <div><span id="pp_11"></span></div>                                
-                            </div>
-                        </div>
-                    </div>
-                    
-                    
-                </div>
-
-            </div>
-
-
-            <div class="opcoes__ajuda">
-                <h1>Ajuda</h1>
-                <div class="ajuda__container">
-
-                    <button class="ajuda" id="btn-cartas" onclick="cartas()">
-                        <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-                            width="34" viewBox="0 0 512.000000 512.000000"
-                            preserveAspectRatio="xMidYMid meet">
-
-                            <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
-                            fill="currentColor" stroke="none">
-                            <path d="M403 5020 c-94 -22 -172 -104 -193 -204 -8 -36 -10 -585 -8 -1911 3
+          <div class="opcoes__ajuda">
+            <h1 hidden>Ajuda</h1>
+            <div class="ajuda__container">
+              <button class="ajuda" id="btn-cartas" onclick="cartas()">
+                <svg
+                  version="1.0"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="34"
+                  viewBox="0 0 512.000000 512.000000"
+                  preserveAspectRatio="xMidYMid meet"
+                >
+                  <g
+                    transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+                    fill="currentColor"
+                    stroke="none"
+                  >
+                    <path
+                      d="M403 5020 c-94 -22 -172 -104 -193 -204 -8 -36 -10 -585 -8 -1911 3
                             -1691 4 -1863 19 -1896 26 -56 79 -110 134 -135 l50 -24 1180 0 c1129 0 1182
                             1 1221 19 51 23 104 75 130 127 19 38 19 80 19 1944 l0 1905 -27 47 c-16 25
                             -45 60 -65 78 -77 63 -23 60 -1282 59 -630 -1 -1160 -4 -1178 -9z m2377 -123
                             c19 -12 43 -38 54 -57 21 -35 21 -37 21 -1905 l0 -1870 -23 -37 c-13 -21 -40
                             -45 -66 -57 -43 -21 -45 -21 -1199 -19 -1155 3 -1156 3 -1184 24 -15 11 -38
-                            36 -51 54 l-22 33 2 1881 3 1881 22 31 c48 68 -35 64 1249 64 l1161 0 33 -23z"/>
-                            <path d="M690 4730 c-11 -11 -20 -27 -20 -35 0 -25 -60 -204 -102 -308 -29
+                            36 -51 54 l-22 33 2 1881 3 1881 22 31 c48 68 -35 64 1249 64 l1161 0 33 -23z"
+                    />
+                    <path
+                      d="M690 4730 c-11 -11 -20 -27 -20 -35 0 -25 -60 -204 -102 -308 -29
                             -68 -49 -104 -69 -118 -31 -22 -39 -65 -17 -87 7 -7 39 -12 75 -12 55 0 64 3
                             78 24 13 19 13 29 4 49 -8 18 -8 30 0 46 10 18 20 21 86 21 85 0 98 -11 88
                             -74 -8 -53 7 -66 83 -66 55 0 66 3 78 23 19 27 11 64 -15 72 -11 4 -35 37 -54
                             75 -37 74 -125 326 -125 359 0 20 -34 51 -57 51 -7 0 -22 -9 -33 -20z m65
-                            -290 l14 -40 -43 0 -44 0 21 56 c22 60 25 59 52 -16z"/>
-                            <path d="M1240 3440 c-60 -13 -89 -28 -138 -74 -87 -81 -125 -198 -104 -320
+                            -290 l14 -40 -43 0 -44 0 21 56 c22 60 25 59 52 -16z"
+                    />
+                    <path
+                      d="M1240 3440 c-60 -13 -89 -28 -138 -74 -87 -81 -125 -198 -104 -320
                             22 -133 78 -216 212 -314 41 -31 134 -104 206 -163 122 -100 144 -113 185
                             -110 9 0 61 39 116 85 55 46 155 124 221 174 90 68 129 106 159 150 163 243
                             35 573 -222 575 -79 1 -147 -31 -233 -109 l-62 -56 -64 59 c-94 88 -186 123
-                            -276 103z"/>
-                            <path d="M2202 1694 c-12 -8 -22 -26 -22 -39 0 -24 7 -33 43 -58 22 -15 98
+                            -276 103z"
+                    />
+                    <path
+                      d="M2202 1694 c-12 -8 -22 -26 -22 -39 0 -24 7 -33 43 -58 22 -15 98
                             -198 138 -335 17 -59 36 -113 42 -119 5 -7 22 -13 37 -13 33 0 45 13 55 60 14
                             63 76 243 112 321 21 46 46 85 64 98 34 25 37 53 9 81 -25 25 -105 27 -139 4
                             -20 -14 -22 -22 -17 -55 10 -64 4 -69 -85 -69 -69 0 -80 2 -89 21 -9 15 -8 24
                             0 35 18 21 3 63 -26 74 -38 15 -97 12 -122 -6z m278 -218 c0 -4 -27 -82 -36
-                            -106 -4 -10 -13 3 -24 35 -26 72 -26 75 20 75 22 0 40 -2 40 -4z"/>
-                            <path d="M3085 4360 c-10 -31 4 -79 28 -95 12 -7 384 -221 827 -475 443 -253
+                            -106 -4 -10 -13 3 -24 35 -26 72 -26 75 20 75 22 0 40 -2 40 -4z"
+                    />
+                    <path
+                      d="M3085 4360 c-10 -31 4 -79 28 -95 12 -7 384 -221 827 -475 443 -253
                             818 -474 834 -489 22 -22 30 -41 33 -78 l5 -48 -804 -1405 c-442 -773 -820
                             -1432 -839 -1465 -42 -72 -87 -105 -142 -105 -34 0 -102 36 -461 244 -496 287
                             -469 272 -528 281 -61 9 -90 0 -86 -28 2 -17 108 -83 488 -303 297 -173 504
                             -287 533 -294 81 -21 171 6 229 67 37 39 1688 2928 1705 2983 25 81 -2 174
-                            -69 236 -38 36 -1707 994 -1731 994 -9 0 -19 -9 -22 -20z"/>
-                            <path d="M3114 4027 l-29 -25 -5 -1494 -5 -1493 -32 -67 c-38 -81 -102 -146
+                            -69 236 -38 36 -1707 994 -1731 994 -9 0 -19 -9 -22 -20z"
+                    />
+                    <path
+                      d="M3114 4027 l-29 -25 -5 -1494 -5 -1493 -32 -67 c-38 -81 -102 -146
                             -181 -185 -52 -25 -69 -28 -199 -33 -118 -4 -145 -8 -160 -23 -13 -13 -15 -21
                             -7 -34 5 -9 104 -69 220 -134 181 -103 215 -118 255 -119 32 0 56 7 79 22 25
                             18 191 300 782 1333 413 721 755 1325 760 1344 13 46 -3 99 -39 132 -33 31
-                            -1349 785 -1385 794 -18 5 -33 0 -54 -18z"/>
-                            </g>
-                            </svg>
-                        <span>Cartas</span>
-                    </button>
+                            -1349 785 -1385 794 -18 5 -33 0 -54 -18z"
+                    />
+                  </g>
+                </svg>
+                <span>Cartas</span>
+              </button>
 
-                    <button class="ajuda" id="btn-placas" onclick="ajudaPlacas()">
-                        <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-                            width="32" viewBox="0 0 512.000000 512.000000"
-                            preserveAspectRatio="xMidYMid meet">
-
-                            <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
-                            fill="currentColor" stroke="none">
-                            <path d="M320 4947 c-49 -16 -133 -102 -148 -153 -17 -59 -17 -1849 0 -1908
+              <button class="ajuda" id="btn-placas" onclick="ajudaPlacas()">
+                <svg
+                  version="1.0"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  viewBox="0 0 512.000000 512.000000"
+                  preserveAspectRatio="xMidYMid meet"
+                >
+                  <g
+                    transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+                    fill="currentColor"
+                    stroke="none"
+                  >
+                    <path
+                      d="M320 4947 c-49 -16 -133 -102 -148 -153 -17 -59 -17 -1849 0 -1908
                             16 -55 99 -138 154 -154 31 -9 267 -12 956 -12 1038 0 975 -5 1051 80 24 26
                             49 66 55 88 17 57 17 1847 0 1904 -6 22 -31 62 -55 88 -76 85 -12 80 -1057 79
                             -641 -1 -932 -4 -956 -12z m1895 -172 l25 -24 0 -911 0 -911 -25 -24 -24 -25
-                            -911 0 -911 0 -24 25 -25 24 0 911 0 911 25 24 24 25 911 0 911 0 24 -25z"/>
-                            <path d="M2880 4947 c-49 -16 -133 -102 -148 -153 -17 -59 -17 -1849 0 -1908
+                            -911 0 -911 0 -24 25 -25 24 0 911 0 911 25 24 24 25 911 0 911 0 24 -25z"
+                    />
+                    <path
+                      d="M2880 4947 c-49 -16 -133 -102 -148 -153 -17 -59 -17 -1849 0 -1908
                             16 -55 99 -138 154 -154 31 -9 267 -12 956 -12 1038 0 975 -5 1051 80 24 26
                             49 66 55 88 17 57 17 1847 0 1904 -6 22 -31 62 -55 88 -76 85 -12 80 -1057 79
                             -641 -1 -932 -4 -956 -12z m1895 -172 l25 -24 0 -911 0 -911 -25 -24 -24 -25
-                            -911 0 -911 0 -24 25 -25 24 0 911 0 911 25 24 24 25 911 0 911 0 24 -25z"/>
-                            <path d="M320 2387 c-49 -16 -133 -102 -148 -153 -17 -59 -17 -1849 0 -1908
+                            -911 0 -911 0 -24 25 -25 24 0 911 0 911 25 24 24 25 911 0 911 0 24 -25z"
+                    />
+                    <path
+                      d="M320 2387 c-49 -16 -133 -102 -148 -153 -17 -59 -17 -1849 0 -1908
                             16 -55 99 -138 154 -154 31 -9 267 -12 956 -12 1038 0 975 -5 1051 80 24 26
                             49 66 55 88 17 57 17 1847 0 1904 -6 22 -31 62 -55 88 -76 85 -12 80 -1057 79
                             -641 -1 -932 -4 -956 -12z m1895 -172 l25 -24 0 -911 0 -911 -25 -24 -24 -25
-                            -911 0 -911 0 -24 25 -25 24 0 911 0 911 25 24 24 25 911 0 911 0 24 -25z"/>
-                            <path d="M2880 2387 c-49 -16 -133 -102 -148 -153 -17 -59 -17 -1849 0 -1908
+                            -911 0 -911 0 -24 25 -25 24 0 911 0 911 25 24 24 25 911 0 911 0 24 -25z"
+                    />
+                    <path
+                      d="M2880 2387 c-49 -16 -133 -102 -148 -153 -17 -59 -17 -1849 0 -1908
                             16 -55 99 -138 154 -154 31 -9 267 -12 956 -12 1038 0 975 -5 1051 80 24 26
                             49 66 55 88 17 57 17 1847 0 1904 -6 22 -31 62 -55 88 -76 85 -12 80 -1057 79
                             -641 -1 -932 -4 -956 -12z m1895 -172 l25 -24 0 -911 0 -911 -25 -24 -24 -25
-                            -911 0 -911 0 -24 25 -25 24 0 911 0 911 25 24 24 25 911 0 911 0 24 -25z"/>
-                            </g>
-                            </svg>
+                            -911 0 -911 0 -24 25 -25 24 0 911 0 911 25 24 24 25 911 0 911 0 24 -25z"
+                    />
+                  </g>
+                </svg>
 
-                        <span>Placas</span>
-                    </button>
+                <span>Placas</span>
+              </button>
 
-                    <button class="ajuda" id="btn-convidados" onclick="ajudaConvidados()">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor" width="28"><path d="M219.3 .5c3.1-.6 6.3-.6 9.4 0l200 40C439.9 42.7 448 52.6 448 64s-8.1 21.3-19.3 23.5L352 102.9l0 57.1c0 70.7-57.3 128-128 128s-128-57.3-128-128l0-57.1L48 93.3l0 65.1 15.7 78.4c.9 4.7-.3 9.6-3.3 13.3s-7.6 5.9-12.4 5.9l-32 0c-4.8 0-9.3-2.1-12.4-5.9s-4.3-8.6-3.3-13.3L16 158.4l0-71.8C6.5 83.3 0 74.3 0 64C0 52.6 8.1 42.7 19.3 40.5l200-40zM111.9 327.7c10.5-3.4 21.8 .4 29.4 8.5l71 75.5c6.3 6.7 17 6.7 23.3 0l71-75.5c7.6-8.1 18.9-11.9 29.4-8.5C401 348.6 448 409.4 448 481.3c0 17-13.8 30.7-30.7 30.7L30.7 512C13.8 512 0 498.2 0 481.3c0-71.9 47-132.7 111.9-153.6z"/></svg>
-                        <span>Convidados</span>
-                    </button>
+              <button
+                class="ajuda"
+                id="btn-convidados"
+                onclick="ajudaConvidados()"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 448 512"
+                  fill="currentColor"
+                  width="28"
+                >
+                  <path
+                    d="M219.3 .5c3.1-.6 6.3-.6 9.4 0l200 40C439.9 42.7 448 52.6 448 64s-8.1 21.3-19.3 23.5L352 102.9l0 57.1c0 70.7-57.3 128-128 128s-128-57.3-128-128l0-57.1L48 93.3l0 65.1 15.7 78.4c.9 4.7-.3 9.6-3.3 13.3s-7.6 5.9-12.4 5.9l-32 0c-4.8 0-9.3-2.1-12.4-5.9s-4.3-8.6-3.3-13.3L16 158.4l0-71.8C6.5 83.3 0 74.3 0 64C0 52.6 8.1 42.7 19.3 40.5l200-40zM111.9 327.7c10.5-3.4 21.8 .4 29.4 8.5l71 75.5c6.3 6.7 17 6.7 23.3 0l71-75.5c7.6-8.1 18.9-11.9 29.4-8.5C401 348.6 448 409.4 448 481.3c0 17-13.8 30.7-30.7 30.7L30.7 512C13.8 512 0 498.2 0 481.3c0-71.9 47-132.7 111.9-153.6z"
+                  />
+                </svg>
+                <span>Convidados</span>
+              </button>
 
-                    <button class="ajuda" onclick="pular()" id="pular1">
-                        <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-                            width="28pt" viewBox="0 0 512.000000 512.000000"
-                            preserveAspectRatio="xMidYMid meet">
-
-                            <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
-                            fill="currentColor" stroke="none">
-                            <path d="M2092 5100 c-272 -72 -457 -297 -470 -575 -14 -313 196 -577 511
+              <button class="ajuda" onclick="pular()" id="pular1">
+                <svg
+                  version="1.0"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="28pt"
+                  viewBox="0 0 512.000000 512.000000"
+                  preserveAspectRatio="xMidYMid meet"
+                >
+                  <g
+                    transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+                    fill="currentColor"
+                    stroke="none"
+                  >
+                    <path
+                      d="M2092 5100 c-272 -72 -457 -297 -470 -575 -14 -313 196 -577 511
                             -641 256 -52 545 91 661 328 48 98 66 175 66 280 0 116 -14 176 -63 278 -32
-                            67 -57 101 -116 160 -164 163 -379 225 -589 170z"/>
-                            <path d="M3267 4726 c-50 -18 -114 -63 -136 -95 -10 -14 -93 -174 -185 -356
+                            67 -57 101 -116 160 -164 163 -379 225 -589 170z"
+                    />
+                    <path
+                      d="M3267 4726 c-50 -18 -114 -63 -136 -95 -10 -14 -93 -174 -185 -356
                             -93 -181 -178 -340 -190 -353 -25 -26 -324 -133 -422 -151 -32 -7 -150 -23
                             -261 -36 -112 -13 -216 -31 -231 -39 -42 -22 -99 -90 -112 -133 -12 -43 -161
                             -1320 -215 -1848 -20 -192 -40 -379 -46 -415 -6 -36 -78 -268 -160 -516 -166
@@ -289,24 +287,33 @@
                             -44 95 -131 147 -240 147 -78 -1 -150 -36 -198 -97 -18 -22 -115 -182 -216
                             -355 -101 -173 -185 -317 -187 -319 -2 -3 -27 3 -56 12 -28 8 -79 23 -111 33
                             l-60 16 80 39 c94 45 188 122 247 201 63 86 404 763 412 820 15 102 -55 226
-                            -151 269 -57 26 -140 32 -187 15z"/>
-                            </g>
-                        </svg>
-                        <span>Pular</span>
-                    </button>
+                            -151 269 -57 26 -140 32 -187 15z"
+                    />
+                  </g>
+                </svg>
+                <span>Pular</span>
+              </button>
 
-                    
-                    <button class="ajuda" onclick="pular()" id="pular2">
-                        <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-                            width="28pt" viewBox="0 0 512.000000 512.000000"
-                            preserveAspectRatio="xMidYMid meet">
-
-                            <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
-                            fill="currentColor" stroke="none">
-                            <path d="M2092 5100 c-272 -72 -457 -297 -470 -575 -14 -313 196 -577 511
+              <button class="ajuda" onclick="pular()" id="pular2">
+                <svg
+                  version="1.0"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="28pt"
+                  viewBox="0 0 512.000000 512.000000"
+                  preserveAspectRatio="xMidYMid meet"
+                >
+                  <g
+                    transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+                    fill="currentColor"
+                    stroke="none"
+                  >
+                    <path
+                      d="M2092 5100 c-272 -72 -457 -297 -470 -575 -14 -313 196 -577 511
                             -641 256 -52 545 91 661 328 48 98 66 175 66 280 0 116 -14 176 -63 278 -32
-                            67 -57 101 -116 160 -164 163 -379 225 -589 170z"/>
-                            <path d="M3267 4726 c-50 -18 -114 -63 -136 -95 -10 -14 -93 -174 -185 -356
+                            67 -57 101 -116 160 -164 163 -379 225 -589 170z"
+                    />
+                    <path
+                      d="M3267 4726 c-50 -18 -114 -63 -136 -95 -10 -14 -93 -174 -185 -356
                             -93 -181 -178 -340 -190 -353 -25 -26 -324 -133 -422 -151 -32 -7 -150 -23
                             -261 -36 -112 -13 -216 -31 -231 -39 -42 -22 -99 -90 -112 -133 -12 -43 -161
                             -1320 -215 -1848 -20 -192 -40 -379 -46 -415 -6 -36 -78 -268 -160 -516 -166
@@ -321,24 +328,33 @@
                             -44 95 -131 147 -240 147 -78 -1 -150 -36 -198 -97 -18 -22 -115 -182 -216
                             -355 -101 -173 -185 -317 -187 -319 -2 -3 -27 3 -56 12 -28 8 -79 23 -111 33
                             l-60 16 80 39 c94 45 188 122 247 201 63 86 404 763 412 820 15 102 -55 226
-                            -151 269 -57 26 -140 32 -187 15z"/>
-                            </g>
-                        </svg>
-                        <span>Pular</span>
-                    </button>
+                            -151 269 -57 26 -140 32 -187 15z"
+                    />
+                  </g>
+                </svg>
+                <span>Pular</span>
+              </button>
 
-                    
-                    <button class="ajuda" onclick="pular()" id="pular3">
-                        <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-                            width="28pt" viewBox="0 0 512.000000 512.000000"
-                            preserveAspectRatio="xMidYMid meet">
-
-                            <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
-                            fill="currentColor" stroke="none">
-                            <path d="M2092 5100 c-272 -72 -457 -297 -470 -575 -14 -313 196 -577 511
+              <button class="ajuda" onclick="pular()" id="pular3">
+                <svg
+                  version="1.0"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="28pt"
+                  viewBox="0 0 512.000000 512.000000"
+                  preserveAspectRatio="xMidYMid meet"
+                >
+                  <g
+                    transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+                    fill="currentColor"
+                    stroke="none"
+                  >
+                    <path
+                      d="M2092 5100 c-272 -72 -457 -297 -470 -575 -14 -313 196 -577 511
                             -641 256 -52 545 91 661 328 48 98 66 175 66 280 0 116 -14 176 -63 278 -32
-                            67 -57 101 -116 160 -164 163 -379 225 -589 170z"/>
-                            <path d="M3267 4726 c-50 -18 -114 -63 -136 -95 -10 -14 -93 -174 -185 -356
+                            67 -57 101 -116 160 -164 163 -379 225 -589 170z"
+                    />
+                    <path
+                      d="M3267 4726 c-50 -18 -114 -63 -136 -95 -10 -14 -93 -174 -185 -356
                             -93 -181 -178 -340 -190 -353 -25 -26 -324 -133 -422 -151 -32 -7 -150 -23
                             -261 -36 -112 -13 -216 -31 -231 -39 -42 -22 -99 -90 -112 -133 -12 -43 -161
                             -1320 -215 -1848 -20 -192 -40 -379 -46 -415 -6 -36 -78 -268 -160 -516 -166
@@ -353,34 +369,88 @@
                             -44 95 -131 147 -240 147 -78 -1 -150 -36 -198 -97 -18 -22 -115 -182 -216
                             -355 -101 -173 -185 -317 -187 -319 -2 -3 -27 3 -56 12 -28 8 -79 23 -111 33
                             l-60 16 80 39 c94 45 188 122 247 201 63 86 404 763 412 820 15 102 -55 226
-                            -151 269 -57 26 -140 32 -187 15z"/>
-                            </g>
-                        </svg>
-                        <span>Pular</span>
-                    </button>
+                            -151 269 -57 26 -140 32 -187 15z"
+                    />
+                  </g>
+                </svg>
+                <span>Pular</span>
+              </button>
 
-                </div>
-
-                
-            </div>
-
-
-                
-            <div class="opcoes__parar">
+              <div class="opcoes__parar">
                 <button>Parar</button>
+              </div>
+              
             </div>
+          </div>
 
+          <div class="area_jogo__mensagens">
+            <div id="caixa_mensagem" class="tooltip-right">
+              <div id="certo_disso" style="display: none">
+                <p>Você está certo disso?</p>
+                <div class="container__botoes">
+                  <button class="btn btn-dark" id="btn-sim">Sim</button>
+                  <button class="btn btn-danger" id="btn-nao">Não</button>
+                </div>
+              </div>
 
+              <div id="pular" hidden>
+                <p>Deseja pular?</p>
+                <div class="container__botoes">
+                  <button class="btn btn-dark" id="btn-sim">Sim</button>
+                  <button class="btn btn-danger" id="btn-nao">Não</button>
+                </div>
+              </div>
+
+              <div id="cartas" hidden>
+                <div class="carta carta_a"></div>
+                <div class="carta carta_2"></div>
+                <div class="carta carta__selecionada carta_3"></div>
+                <div class="carta carta_reis"></div>
+              </div>
+
+              <div id="convidados" hidden>
+                <h5>Convidados</h5>
+                <div class="placas__convidados">
+                  <div class="convidado tooltip-top">
+                    <h3>1</h3>
+                  </div>
+                  <div class="convidado tooltip-top">
+                    <h3>2</h3>
+                  </div>
+                  <div class="convidado tooltip-top">
+                    <h3>3</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div id="placas" hidden>
+                <h5>Placas</h5>
+                <div class="placas__participantes">
+                  <div class="linha__placas_participantes">
+                    <div><span id="pp_1"></span></div>
+                    <div><span id="pp_2"></span></div>
+                    <div><span id="pp_3"></span></div>
+                    <div><span id="pp_4"></span></div>
+                  </div>
+                  <div class="linha__placas_participantes">
+                    <div><span id="pp_5"></span></div>
+                    <div><span id="pp_6"></span></div>
+                    <div><span id="pp_7"></span></div>
+                    <div><span id="pp_8"></span></div>
+                  </div>
+                  <div class="linha__placas_participantes">
+                    <div><span id="pp_9"></span></div>
+                    <div><span id="pp_10"></span></div>
+                    <div><span id="pp_11"></span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-
+      </div>
     </div>
+  </body>
 
-
-</div>
-
-    
-</body>
-
-<script src="assets/js/script.js"></script>
-
+  <script src="assets/js/script.js"></script>
 </html>
