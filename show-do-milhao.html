@@ -149,47 +149,25 @@
 
 
                     <div id="placas" hidden>
-                        <h5 style="display: flex; gap: 10px;">
-                            <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-                            width="22" viewBox="0 0 512.000000 512.000000"
-                            preserveAspectRatio="xMidYMid meet">
-
-                            <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
-                            fill="currentColor" stroke="none">
-                            <path d="M320 4947 c-49 -16 -133 -102 -148 -153 -17 -59 -17 -1849 0 -1908
-                            16 -55 99 -138 154 -154 31 -9 267 -12 956 -12 1038 0 975 -5 1051 80 24 26
-                            49 66 55 88 17 57 17 1847 0 1904 -6 22 -31 62 -55 88 -76 85 -12 80 -1057 79
-                            -641 -1 -932 -4 -956 -12z m1895 -172 l25 -24 0 -911 0 -911 -25 -24 -24 -25
-                            -911 0 -911 0 -24 25 -25 24 0 911 0 911 25 24 24 25 911 0 911 0 24 -25z"/>
-                            <path d="M2880 4947 c-49 -16 -133 -102 -148 -153 -17 -59 -17 -1849 0 -1908
-                            16 -55 99 -138 154 -154 31 -9 267 -12 956 -12 1038 0 975 -5 1051 80 24 26
-                            49 66 55 88 17 57 17 1847 0 1904 -6 22 -31 62 -55 88 -76 85 -12 80 -1057 79
-                            -641 -1 -932 -4 -956 -12z m1895 -172 l25 -24 0 -911 0 -911 -25 -24 -24 -25
-                            -911 0 -911 0 -24 25 -25 24 0 911 0 911 25 24 24 25 911 0 911 0 24 -25z"/>
-                            <path d="M320 2387 c-49 -16 -133 -102 -148 -153 -17 -59 -17 -1849 0 -1908
-                            16 -55 99 -138 154 -154 31 -9 267 -12 956 -12 1038 0 975 -5 1051 80 24 26
-                            49 66 55 88 17 57 17 1847 0 1904 -6 22 -31 62 -55 88 -76 85 -12 80 -1057 79
-                            -641 -1 -932 -4 -956 -12z m1895 -172 l25 -24 0 -911 0 -911 -25 -24 -24 -25
-                            -911 0 -911 0 -24 25 -25 24 0 911 0 911 25 24 24 25 911 0 911 0 24 -25z"/>
-                            <path d="M2880 2387 c-49 -16 -133 -102 -148 -153 -17 -59 -17 -1849 0 -1908
-                            16 -55 99 -138 154 -154 31 -9 267 -12 956 -12 1038 0 975 -5 1051 80 24 26
-                            49 66 55 88 17 57 17 1847 0 1904 -6 22 -31 62 -55 88 -76 85 -12 80 -1057 79
-                            -641 -1 -932 -4 -956 -12z m1895 -172 l25 -24 0 -911 0 -911 -25 -24 -24 -25
-                            -911 0 -911 0 -24 25 -25 24 0 911 0 911 25 24 24 25 911 0 911 0 24 -25z"/>
-                            </g>
-                            </svg>
-                            Placas</h5>
+                        <h5> Placas</h5>
                         <div class="placas__participantes">
-                            <div>1</div>
-                            <div>2</div>
-                            <div>3</div>
-                            <div>4</div>
-                            <div>5</div>
-                            <div>6</div>
-                            <div>7</div>
-                            <div>8</div>
-                            <div>8</div>
-                            <div>8</div>
+                            <div class="linha__placas_participantes">
+                                <div><span id="pp_1"></span></div>
+                                <div><span id="pp_2"></span></div>
+                                <div><span id="pp_3"></span></div>
+                                <div><span id="pp_4"></span></div>
+                            </div>
+                            <div class="linha__placas_participantes">
+                                <div><span id="pp_5"></span></div>
+                                <div><span id="pp_6"></span></div>
+                                <div><span id="pp_7"></span></div>
+                                <div><span id="pp_8"></span></div>                                
+                            </div>
+                            <div class="linha__placas_participantes">
+                                <div><span id="pp_9"></span></div>
+                                <div><span id="pp_10"></span></div>
+                                <div><span id="pp_11"></span></div>                                
+                            </div>
                         </div>
                     </div>
                     
@@ -203,7 +181,7 @@
                 <h1>Ajuda</h1>
                 <div class="ajuda__container">
 
-                    <div class="ajuda">
+                    <button class="ajuda" id="btn-cartas" onclick="cartas()">
                         <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
                             width="34" viewBox="0 0 512.000000 512.000000"
                             preserveAspectRatio="xMidYMid meet">
@@ -248,9 +226,9 @@
                             </g>
                             </svg>
                         <span>Cartas</span>
-                    </div>
+                    </button>
 
-                    <div class="ajuda">
+                    <button class="ajuda" id="btn-placas" onclick="ajudaPlacas()">
                         <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
                             width="32" viewBox="0 0 512.000000 512.000000"
                             preserveAspectRatio="xMidYMid meet">
@@ -281,14 +259,14 @@
                             </svg>
 
                         <span>Placas</span>
-                    </div>
+                    </button>
 
-                    <div class="ajuda">
+                    <button class="ajuda">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor" width="28"><path d="M219.3 .5c3.1-.6 6.3-.6 9.4 0l200 40C439.9 42.7 448 52.6 448 64s-8.1 21.3-19.3 23.5L352 102.9l0 57.1c0 70.7-57.3 128-128 128s-128-57.3-128-128l0-57.1L48 93.3l0 65.1 15.7 78.4c.9 4.7-.3 9.6-3.3 13.3s-7.6 5.9-12.4 5.9l-32 0c-4.8 0-9.3-2.1-12.4-5.9s-4.3-8.6-3.3-13.3L16 158.4l0-71.8C6.5 83.3 0 74.3 0 64C0 52.6 8.1 42.7 19.3 40.5l200-40zM111.9 327.7c10.5-3.4 21.8 .4 29.4 8.5l71 75.5c6.3 6.7 17 6.7 23.3 0l71-75.5c7.6-8.1 18.9-11.9 29.4-8.5C401 348.6 448 409.4 448 481.3c0 17-13.8 30.7-30.7 30.7L30.7 512C13.8 512 0 498.2 0 481.3c0-71.9 47-132.7 111.9-153.6z"/></svg>
                         <span>Convidados</span>
-                    </div>
+                    </button>
 
-                    <div class="ajuda">
+                    <button class="ajuda" onclick="pular()" id="pular1">
                         <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
                             width="28pt" viewBox="0 0 512.000000 512.000000"
                             preserveAspectRatio="xMidYMid meet">
@@ -317,10 +295,10 @@
                             </g>
                         </svg>
                         <span>Pular</span>
-                    </div>
+                    </button>
 
                     
-                    <div class="ajuda">
+                    <button class="ajuda" onclick="pular()" id="pular2">
                         <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
                             width="28pt" viewBox="0 0 512.000000 512.000000"
                             preserveAspectRatio="xMidYMid meet">
@@ -349,10 +327,10 @@
                             </g>
                         </svg>
                         <span>Pular</span>
-                    </div>
+                    </button>
 
                     
-                    <div class="ajuda">
+                    <button class="ajuda" onclick="pular()" id="pular3">
                         <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
                             width="28pt" viewBox="0 0 512.000000 512.000000"
                             preserveAspectRatio="xMidYMid meet">
@@ -381,7 +359,7 @@
                             </g>
                         </svg>
                         <span>Pular</span>
-                    </div>
+                    </button>
 
                 </div>
 
