@@ -129,6 +129,916 @@
                 { "id_alt": 4, "alternativa": "1970" }
             ],
             "correta": 2
+        },
+        {
+            "id": "NV2011",
+            "nivel": 2,
+            "tema": "Cultura Geral",
+            "pergunta": "Qual é o nome da maior ilha do mundo?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Groenlândia" },
+                { "id_alt": 2, "alternativa": "Nova Guiné" },
+                { "id_alt": 3, "alternativa": "Borneo" },
+                { "id_alt": 4, "alternativa": "Madagascar" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV2012",
+            "nivel": 2,
+            "tema": "Geografia",
+            "pergunta": "Qual é o maior país da África em termos de área?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Egito" },
+                { "id_alt": 2, "alternativa": "Argélia" },
+                { "id_alt": 3, "alternativa": "Nigéria" },
+                { "id_alt": 4, "alternativa": "África do Sul" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV2013",
+            "nivel": 2,
+            "tema": "Cultura Geral",
+            "pergunta": "Quem pintou o quadro 'A Última Ceia'?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Vincent van Gogh" },
+                { "id_alt": 2, "alternativa": "Pablo Picasso" },
+                { "id_alt": 3, "alternativa": "Leonardo da Vinci" },
+                { "id_alt": 4, "alternativa": "Claude Monet" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV2014",
+            "nivel": 2,
+            "tema": "História",
+            "pergunta": "Quem foi o imperador romano durante o período de maior expansão do Império Romano?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Júlio César" },
+                { "id_alt": 2, "alternativa": "Augusto" },
+                { "id_alt": 3, "alternativa": "Nero" },
+                { "id_alt": 4, "alternativa": "Trajano" }
+            ],
+            "correta": 4
+        },
+        {
+            "id": "NV2015",
+            "nivel": 2,
+            "tema": "Ciência",
+            "pergunta": "Qual é o nome do processo pelo qual as plantas produzem seu alimento?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Fotossíntese" },
+                { "id_alt": 2, "alternativa": "Respiração celular" },
+                { "id_alt": 3, "alternativa": "Transpiração" },
+                { "id_alt": 4, "alternativa": "Fermentação" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV2016",
+            "nivel": 2,
+            "tema": "Geografia",
+            "pergunta": "Qual é a maior cidade do mundo em termos de população?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Pequim" },
+                { "id_alt": 2, "alternativa": "Mumbai" },
+                { "id_alt": 3, "alternativa": "Tóquio" },
+                { "id_alt": 4, "alternativa": "São Paulo" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV2017",
+            "nivel": 2,
+            "tema": "Cultura Geral",
+            "pergunta": "Quem é o autor de 'Harry Potter e a Pedra Filosofal'?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "J.R.R. Tolkien" },
+                { "id_alt": 2, "alternativa": "J.K. Rowling" },
+                { "id_alt": 3, "alternativa": "George R.R. Martin" },
+                { "id_alt": 4, "alternativa": "Suzanne Collins" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV2018",
+            "nivel": 2,
+            "tema": "Matemática",
+            "pergunta": "Qual é o valor de 12 × 8?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "96" },
+                { "id_alt": 2, "alternativa": "104" },
+                { "id_alt": 3, "alternativa": "100" },
+                { "id_alt": 4, "alternativa": "88" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV2019",
+            "nivel": 2,
+            "tema": "História",
+            "pergunta": "Qual foi o primeiro império da História?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Império Romano" },
+                { "id_alt": 2, "alternativa": "Império Egípcio" },
+                { "id_alt": 3, "alternativa": "Império Persa" },
+                { "id_alt": 4, "alternativa": "Império Sumério" }
+            ],
+            "correta": 4
+        },
+        {
+            "id": "NV2020",
+            "nivel": 2,
+            "tema": "Geografia",
+            "pergunta": "Qual é o maior continente em termos de área?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "África" },
+                { "id_alt": 2, "alternativa": "Ásia" },
+                { "id_alt": 3, "alternativa": "América do Norte" },
+                { "id_alt": 4, "alternativa": "Europa" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV2021",
+            "nivel": 2,
+            "tema": "Cultura Geral",
+            "pergunta": "Qual é o nome do famoso cientista que desenvolveu a teoria da relatividade?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Isaac Newton" },
+                { "id_alt": 2, "alternativa": "Galileo Galilei" },
+                { "id_alt": 3, "alternativa": "Albert Einstein" },
+                { "id_alt": 4, "alternativa": "Nikola Tesla" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV2022",
+            "nivel": 2,
+            "tema": "Esportes",
+            "pergunta": "Em qual país ocorreram os Jogos Olímpicos de 2008?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Brasil" },
+                { "id_alt": 2, "alternativa": "Reino Unido" },
+                { "id_alt": 3, "alternativa": "China" },
+                { "id_alt": 4, "alternativa": "Estados Unidos" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV2023",
+            "nivel": 2,
+            "tema": "Ciência",
+            "pergunta": "Quem foi o responsável pela teoria da evolução das espécies?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Isaac Newton" },
+                { "id_alt": 2, "alternativa": "Charles Darwin" },
+                { "id_alt": 3, "alternativa": "Marie Curie" },
+                { "id_alt": 4, "alternativa": "Galileo Galilei" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV2024",
+            "nivel": 2,
+            "tema": "Literatura",
+            "pergunta": "Quem escreveu 'O Morro dos Ventos Uivantes'?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Emily Brontë" },
+                { "id_alt": 2, "alternativa": "Jane Austen" },
+                { "id_alt": 3, "alternativa": "Charlotte Brontë" },
+                { "id_alt": 4, "alternativa": "George Eliot" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV2025",
+            "nivel": 2,
+            "tema": "História",
+            "pergunta": "Quando aconteceu o fim da Segunda Guerra Mundial?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "1944" },
+                { "id_alt": 2, "alternativa": "1945" },
+                { "id_alt": 3, "alternativa": "1946" },
+                { "id_alt": 4, "alternativa": "1947" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV2026",
+            "nivel": 2,
+            "tema": "Geografia",
+            "pergunta": "Qual é o país mais populoso do mundo?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Estados Unidos" },
+                { "id_alt": 2, "alternativa": "Brasil" },
+                { "id_alt": 3, "alternativa": "Índia" },
+                { "id_alt": 4, "alternativa": "China" }
+            ],
+            "correta": 4
+        },
+        {
+            "id": "NV2027",
+            "nivel": 2,
+            "tema": "Geografia",
+            "pergunta": "Qual é o continente com o maior número de países?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "África" },
+                { "id_alt": 2, "alternativa": "Ásia" },
+                { "id_alt": 3, "alternativa": "Europa" },
+                { "id_alt": 4, "alternativa": "América" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV2028",
+            "nivel": 2,
+            "tema": "História",
+            "pergunta": "Em que ano ocorreu a independência do Brasil?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "1822" },
+                { "id_alt": 2, "alternativa": "1889" },
+                { "id_alt": 3, "alternativa": "1500" },
+                { "id_alt": 4, "alternativa": "1930" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV2029",
+            "nivel": 2,
+            "tema": "Ciência",
+            "pergunta": "Qual é a principal fonte de energia da Terra?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Vento" },
+                { "id_alt": 2, "alternativa": "Sol" },
+                { "id_alt": 3, "alternativa": "Água" },
+                { "id_alt": 4, "alternativa": "Terra" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV2030",
+            "nivel": 2,
+            "tema": "Matemática",
+            "pergunta": "Qual é o valor de 9 x 8?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "72" },
+                { "id_alt": 2, "alternativa": "64" },
+                { "id_alt": 3, "alternativa": "56" },
+                { "id_alt": 4, "alternativa": "81" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV2031",
+            "nivel": 2,
+            "tema": "Literatura",
+            "pergunta": "Quem escreveu 'Dom Quixote'?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Machado de Assis" },
+                { "id_alt": 2, "alternativa": "Jorge Amado" },
+                { "id_alt": 3, "alternativa": "Miguel de Cervantes" },
+                { "id_alt": 4, "alternativa": "Carlos Drummond de Andrade" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV2032",
+            "nivel": 2,
+            "tema": "Geografia",
+            "pergunta": "Qual é o país com maior população do mundo?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Índia" },
+                { "id_alt": 2, "alternativa": "China" },
+                { "id_alt": 3, "alternativa": "Estados Unidos" },
+                { "id_alt": 4, "alternativa": "Brasil" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV2033",
+            "nivel": 2,
+            "tema": "História",
+            "pergunta": "Quem foi o imperador romano na época da morte de Jesus Cristo?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "César Augusto" },
+                { "id_alt": 2, "alternativa": "Nero" },
+                { "id_alt": 3, "alternativa": "Tibério" },
+                { "id_alt": 4, "alternativa": "Juliano" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV2034",
+            "nivel": 2,
+            "tema": "Ciência",
+            "pergunta": "O que é a fotossíntese?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "A conversão de dióxido de carbono em oxigênio nas plantas" },
+                { "id_alt": 2, "alternativa": "A respiração das plantas" },
+                { "id_alt": 3, "alternativa": "O processo de fermentação das plantas" },
+                { "id_alt": 4, "alternativa": "A decomposição das plantas" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV2035",
+            "nivel": 2,
+            "tema": "Matemática",
+            "pergunta": "Qual é a fórmula para calcular a área de um triângulo?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "A = b × h" },
+                { "id_alt": 2, "alternativa": "A = b × h / 2" },
+                { "id_alt": 3, "alternativa": "A = 2 × b × h" },
+                { "id_alt": 4, "alternativa": "A = b²" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV2036",
+            "nivel": 2,
+            "tema": "Literatura",
+            "pergunta": "Quem escreveu 'O Primo Basílio'?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "José de Alencar" },
+                { "id_alt": 2, "alternativa": "Machado de Assis" },
+                { "id_alt": 3, "alternativa": "Eça de Queirós" },
+                { "id_alt": 4, "alternativa": "Monteiro Lobato" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV2037",
+            "nivel": 2,
+            "tema": "Esportes",
+            "pergunta": "Qual é o esporte mais praticado no mundo?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Futebol" },
+                { "id_alt": 2, "alternativa": "Críquete" },
+                { "id_alt": 3, "alternativa": "Basquete" },
+                { "id_alt": 4, "alternativa": "Vôlei" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV2038",
+            "nivel": 2,
+            "tema": "Geografia",
+            "pergunta": "Em qual país fica o Monte Everest?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Nepal" },
+                { "id_alt": 2, "alternativa": "China" },
+                { "id_alt": 3, "alternativa": "Índia" },
+                { "id_alt": 4, "alternativa": "Paquistão" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV2039",
+            "nivel": 2,
+            "tema": "História",
+            "pergunta": "O que foi a Revolução Industrial?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Uma revolução política que visava acabar com o absolutismo" },
+                { "id_alt": 2, "alternativa": "Um movimento cultural que transformou a arte europeia" },
+                { "id_alt": 3, "alternativa": "Uma mudança significativa na produção e na tecnologia que começou na Inglaterra" },
+                { "id_alt": 4, "alternativa": "A Revolução que ocorreu durante a Primeira Guerra Mundial" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV2040",
+            "nivel": 2,
+            "tema": "Ciência",
+            "pergunta": "O que é DNA?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Ácido desoxirribonucleico, responsável pela codificação genética" },
+                { "id_alt": 2, "alternativa": "Ácido ribonucleico, responsável pela produção de proteínas" },
+                { "id_alt": 3, "alternativa": "Proteína que controla os genes" },
+                { "id_alt": 4, "alternativa": "Substância que auxilia na formação dos cromossomos" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV2041",
+            "nivel": 2,
+            "tema": "Matemática",
+            "pergunta": "Qual é a fórmula da área do círculo?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "A = π × r²" },
+                { "id_alt": 2, "alternativa": "A = 2 × π × r" },
+                { "id_alt": 3, "alternativa": "A = π × d" },
+                { "id_alt": 4, "alternativa": "A = r × d" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV2042",
+            "nivel": 2,
+            "tema": "Geografia",
+            "pergunta": "Qual é a capital da Austrália?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Sidney" },
+                { "id_alt": 2, "alternativa": "Melbourne" },
+                { "id_alt": 3, "alternativa": "Canberra" },
+                { "id_alt": 4, "alternativa": "Brisbane" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV2043",
+            "nivel": 2,
+            "tema": "História",
+            "pergunta": "Quem foi o presidente dos Estados Unidos durante a Segunda Guerra Mundial?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Franklin D. Roosevelt" },
+                { "id_alt": 2, "alternativa": "Harry S. Truman" },
+                { "id_alt": 3, "alternativa": "Dwight D. Eisenhower" },
+                { "id_alt": 4, "alternativa": "John F. Kennedy" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV2044",
+            "nivel": 2,
+            "tema": "Ciência",
+            "pergunta": "Qual é o gás predominante na atmosfera da Terra?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Oxigênio" },
+                { "id_alt": 2, "alternativa": "Nitrogênio" },
+                { "id_alt": 3, "alternativa": "Dióxido de carbono" },
+                { "id_alt": 4, "alternativa": "Argônio" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV2045",
+            "nivel": 2,
+            "tema": "Matemática",
+            "pergunta": "Qual é o valor de 15 x 6?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "90" },
+                { "id_alt": 2, "alternativa": "85" },
+                { "id_alt": 3, "alternativa": "95" },
+                { "id_alt": 4, "alternativa": "80" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV2046",
+            "nivel": 2,
+            "tema": "Literatura",
+            "pergunta": "Qual autor escreveu 'O Primo Basílio'?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Machado de Assis" },
+                { "id_alt": 2, "alternativa": "José de Alencar" },
+                { "id_alt": 3, "alternativa": "Eça de Queirós" },
+                { "id_alt": 4, "alternativa": "Clarice Lispector" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV2047",
+            "nivel": 2,
+            "tema": "Geografia",
+            "pergunta": "Qual é o maior oceano do mundo?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Oceano Atlântico" },
+                { "id_alt": 2, "alternativa": "Oceano Pacífico" },
+                { "id_alt": 3, "alternativa": "Oceano Índico" },
+                { "id_alt": 4, "alternativa": "Oceano Ártico" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV2048",
+            "nivel": 2,
+            "tema": "História",
+            "pergunta": "Em que ano aconteceu a queda do Muro de Berlim?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "1985" },
+                { "id_alt": 2, "alternativa": "1989" },
+                { "id_alt": 3, "alternativa": "1991" },
+                { "id_alt": 4, "alternativa": "1995" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV2049",
+            "nivel": 2,
+            "tema": "Ciência",
+            "pergunta": "Qual é o elemento químico representado pelo símbolo 'H'?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Hélio" },
+                { "id_alt": 2, "alternativa": "Hidrogênio" },
+                { "id_alt": 3, "alternativa": "Hafnio" },
+                { "id_alt": 4, "alternativa": "Holmium" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV2050",
+            "nivel": 2,
+            "tema": "Matemática",
+            "pergunta": "Qual é a raiz quadrada de 81?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "7" },
+                { "id_alt": 2, "alternativa": "8" },
+                { "id_alt": 3, "alternativa": "9" },
+                { "id_alt": 4, "alternativa": "10" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV2051",
+            "nivel": 2,
+            "tema": "Geografia",
+            "pergunta": "Qual é a capital da Austrália?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Sydney" },
+                { "id_alt": 2, "alternativa": "Melbourne" },
+                { "id_alt": 3, "alternativa": "Canberra" },
+                { "id_alt": 4, "alternativa": "Brisbane" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV2052",
+            "nivel": 2,
+            "tema": "História",
+            "pergunta": "Qual foi o principal motivo para o início da Primeira Guerra Mundial?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Assassinato de Franz Ferdinand" },
+                { "id_alt": 2, "alternativa": "Revolução Russa" },
+                { "id_alt": 3, "alternativa": "Tratado de Versalhes" },
+                { "id_alt": 4, "alternativa": "Ataque à Polônia" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV2053",
+            "nivel": 2,
+            "tema": "Ciência",
+            "pergunta": "Qual é o maior órgão do corpo humano?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Coração" },
+                { "id_alt": 2, "alternativa": "Fígado" },
+                { "id_alt": 3, "alternativa": "Cérebro" },
+                { "id_alt": 4, "alternativa": "Pele" }
+            ],
+            "correta": 4
+        },
+        {
+            "id": "NV2054",
+            "nivel": 2,
+            "tema": "Matemática",
+            "pergunta": "Quanto é 15 dividido por 3?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "3" },
+                { "id_alt": 2, "alternativa": "4" },
+                { "id_alt": 3, "alternativa": "5" },
+                { "id_alt": 4, "alternativa": "6" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV2055",
+            "nivel": 2,
+            "tema": "Literatura",
+            "pergunta": "Quem escreveu o livro '1984'?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Aldous Huxley" },
+                { "id_alt": 2, "alternativa": "George Orwell" },
+                { "id_alt": 3, "alternativa": "Ray Bradbury" },
+                { "id_alt": 4, "alternativa": "J.R.R. Tolkien" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV2056",
+            "nivel": 2,
+            "tema": "Geografia",
+            "pergunta": "Qual é o maior oceano do mundo?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Oceano Atlântico" },
+                { "id_alt": 2, "alternativa": "Oceano Índico" },
+                { "id_alt": 3, "alternativa": "Oceano Pacífico" },
+                { "id_alt": 4, "alternativa": "Oceano Ártico" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV2057",
+            "nivel": 2,
+            "tema": "História",
+            "pergunta": "Qual foi a principal causa da Revolução Francesa?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Desigualdade social" },
+                { "id_alt": 2, "alternativa": "Revolta contra a monarquia" },
+                { "id_alt": 3, "alternativa": "Invasão da França por Napoleão" },
+                { "id_alt": 4, "alternativa": "Aumento de impostos" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV2058",
+            "nivel": 2,
+            "tema": "Ciência",
+            "pergunta": "Qual é o principal gás responsável pelo efeito estufa?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Oxigênio" },
+                { "id_alt": 2, "alternativa": "Dióxido de carbono" },
+                { "id_alt": 3, "alternativa": "Metano" },
+                { "id_alt": 4, "alternativa": "Nitrogênio" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV2059",
+            "nivel": 2,
+            "tema": "Matemática",
+            "pergunta": "Qual é a raiz quadrada de 81?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "7" },
+                { "id_alt": 2, "alternativa": "8" },
+                { "id_alt": 3, "alternativa": "9" },
+                { "id_alt": 4, "alternativa": "10" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV2060",
+            "nivel": 2,
+            "tema": "Literatura",
+            "pergunta": "Quem escreveu 'O Primo Basílio'?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Machado de Assis" },
+                { "id_alt": 2, "alternativa": "José de Alencar" },
+                { "id_alt": 3, "alternativa": "José Saramago" },
+                { "id_alt": 4, "alternativa": "José de Carvalho" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV2061",
+            "nivel": 2,
+            "tema": "Geografia",
+            "pergunta": "Em qual continente está localizado o Egito?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "África" },
+                { "id_alt": 2, "alternativa": "Ásia" },
+                { "id_alt": 3, "alternativa": "Europa" },
+                { "id_alt": 4, "alternativa": "América" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV2062",
+            "nivel": 2,
+            "tema": "História",
+            "pergunta": "Quem foi o líder da União Soviética durante a Segunda Guerra Mundial?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Leon Trotsky" },
+                { "id_alt": 2, "alternativa": "Vladimir Lenin" },
+                { "id_alt": 3, "alternativa": "Joseph Stalin" },
+                { "id_alt": 4, "alternativa": "Mikhail Gorbachev" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV2063",
+            "nivel": 2,
+            "tema": "Ciência",
+            "pergunta": "O que é a fotossíntese?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Processo de respiração das plantas" },
+                { "id_alt": 2, "alternativa": "Processo de produção de energia nas células" },
+                { "id_alt": 3, "alternativa": "Processo de conversão de luz em energia nas plantas" },
+                { "id_alt": 4, "alternativa": "Processo de reprodução das plantas" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV2064",
+            "nivel": 2,
+            "tema": "Matemática",
+            "pergunta": "Qual é o valor de 6 elevado à potência 2?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "12" },
+                { "id_alt": 2, "alternativa": "36" },
+                { "id_alt": 3, "alternativa": "72" },
+                { "id_alt": 4, "alternativa": "48" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV2065",
+            "nivel": 2,
+            "tema": "Literatura",
+            "pergunta": "Qual é o nome do autor de 'O Cortiço'?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Machado de Assis" },
+                { "id_alt": 2, "alternativa": "Aluísio Azevedo" },
+                { "id_alt": 3, "alternativa": "Monteiro Lobato" },
+                { "id_alt": 4, "alternativa": "José de Alencar" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV2066",
+            "nivel": 2,
+            "tema": "Geografia",
+            "pergunta": "Qual é o país com a maior população do mundo?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Índia" },
+                { "id_alt": 2, "alternativa": "Estados Unidos" },
+                { "id_alt": 3, "alternativa": "China" },
+                { "id_alt": 4, "alternativa": "Brasil" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV2067",
+            "nivel": 2,
+            "tema": "História",
+            "pergunta": "Quem foi o imperador romano durante a crucificação de Jesus Cristo?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Júlio César" },
+                { "id_alt": 2, "alternativa": "Nero" },
+                { "id_alt": 3, "alternativa": "César Augusto" },
+                { "id_alt": 4, "alternativa": "Pôncio Pilatos" }
+            ],
+            "correta": 4
+        },
+        {
+            "id": "NV2068",
+            "nivel": 2,
+            "tema": "Ciência",
+            "pergunta": "Qual é a principal função do sistema circulatório?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Realizar a digestão dos alimentos" },
+                { "id_alt": 2, "alternativa": "Transportar oxigênio e nutrientes para as células" },
+                { "id_alt": 3, "alternativa": "Controlar os movimentos do corpo" },
+                { "id_alt": 4, "alternativa": "Produzir hormônios" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV2069",
+            "nivel": 2,
+            "tema": "Matemática",
+            "pergunta": "Qual é o valor de 25% de 200?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "25" },
+                { "id_alt": 2, "alternativa": "50" },
+                { "id_alt": 3, "alternativa": "100" },
+                { "id_alt": 4, "alternativa": "75" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV2070",
+            "nivel": 2,
+            "tema": "Literatura",
+            "pergunta": "Quem escreveu a obra 'Dom Casmurro'?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Machado de Assis" },
+                { "id_alt": 2, "alternativa": "José de Alencar" },
+                { "id_alt": 3, "alternativa": "Raul Pompeia" },
+                { "id_alt": 4, "alternativa": "Monteiro Lobato" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV2071",
+            "nivel": 2,
+            "tema": "Geografia",
+            "pergunta": "Qual é a maior cidade do mundo em termos de população?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Tóquio" },
+                { "id_alt": 2, "alternativa": "Pequim" },
+                { "id_alt": 3, "alternativa": "Nova York" },
+                { "id_alt": 4, "alternativa": "São Paulo" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV2072",
+            "nivel": 2,
+            "tema": "História",
+            "pergunta": "Em que ano foi assinada a Declaração de Independência dos Estados Unidos?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "1776" },
+                { "id_alt": 2, "alternativa": "1783" },
+                { "id_alt": 3, "alternativa": "1800" },
+                { "id_alt": 4, "alternativa": "1812" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV2073",
+            "nivel": 2,
+            "tema": "Ciência",
+            "pergunta": "Qual é o planeta mais próximo do Sol?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Terra" },
+                { "id_alt": 2, "alternativa": "Mercúrio" },
+                { "id_alt": 3, "alternativa": "Vênus" },
+                { "id_alt": 4, "alternativa": "Marte" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV2074",
+            "nivel": 2,
+            "tema": "Matemática",
+            "pergunta": "Quanto é 10 multiplicado por 9?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "80" },
+                { "id_alt": 2, "alternativa": "90" },
+                { "id_alt": 3, "alternativa": "100" },
+                { "id_alt": 4, "alternativa": "110" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV2075",
+            "nivel": 2,
+            "tema": "Literatura",
+            "pergunta": "Quem escreveu a obra 'A Moreninha'?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Machado de Assis" },
+                { "id_alt": 2, "alternativa": "Joaquim Manuel de Macedo" },
+                { "id_alt": 3, "alternativa": "José de Alencar" },
+                { "id_alt": 4, "alternativa": "Raul Pompeia" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV2076",
+            "nivel": 2,
+            "tema": "Geografia",
+            "pergunta": "Qual é o nome do maior deserto quente do mundo?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Deserto da Arábia" },
+                { "id_alt": 2, "alternativa": "Deserto do Saara" },
+                { "id_alt": 3, "alternativa": "Deserto de Gobi" },
+                { "id_alt": 4, "alternativa": "Deserto de Atacama" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV2077",
+            "nivel": 2,
+            "tema": "História",
+            "pergunta": "Quem foi o líder da Alemanha Nazista durante a Segunda Guerra Mundial?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Adolf Hitler" },
+                { "id_alt": 2, "alternativa": "Joseph Stalin" },
+                { "id_alt": 3, "alternativa": "Benito Mussolini" },
+                { "id_alt": 4, "alternativa": "Winston Churchill" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV2078",
+            "nivel": 2,
+            "tema": "Ciência",
+            "pergunta": "Qual é o gás que as plantas absorvem durante a fotossíntese?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Oxygen" },
+                { "id_alt": 2, "alternativa": "Nitrogênio" },
+                { "id_alt": 3, "alternativa": "Dióxido de carbono" },
+                { "id_alt": 4, "alternativa": "Hidrogênio" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV2079",
+            "nivel": 2,
+            "tema": "Matemática",
+            "pergunta": "Qual é a fórmula da área de um círculo?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "A = πr²" },
+                { "id_alt": 2, "alternativa": "A = 2πr" },
+                { "id_alt": 3, "alternativa": "A = πd" },
+                { "id_alt": 4, "alternativa": "A = r²" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV2080",
+            "nivel": 2,
+            "tema": "Literatura",
+            "pergunta": "Quem escreveu o livro 'Memórias Póstumas de Brás Cubas'?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "José de Alencar" },
+                { "id_alt": 2, "alternativa": "Raul Pompeia" },
+                { "id_alt": 3, "alternativa": "Machado de Assis" },
+                { "id_alt": 4, "alternativa": "Joaquim Maria Machado" }
+            ],
+            "correta": 3
         }
     ]
 }

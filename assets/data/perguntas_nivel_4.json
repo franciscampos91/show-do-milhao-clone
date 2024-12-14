@@ -1,0 +1,744 @@
+{
+    "pergunta": [
+        {
+            "id": "NV4001",
+            "nivel": 4,
+            "tema": "Geografia",
+            "pergunta": "Qual é a montanha mais alta do mundo acima do nível do mar?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "K2" },
+                { "id_alt": 2, "alternativa": "Monte Everest" },
+                { "id_alt": 3, "alternativa": "Makalu" },
+                { "id_alt": 4, "alternativa": "Kangchenjunga" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV4002",
+            "nivel": 4,
+            "tema": "História",
+            "pergunta": "Qual foi a principal causa do início da Primeira Guerra Mundial?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Assassinato do arquiduque Francisco Ferdinando" },
+                { "id_alt": 2, "alternativa": "Ataque à base naval de Pearl Harbor" },
+                { "id_alt": 3, "alternativa": "Tratado de Versalhes" },
+                { "id_alt": 4, "alternativa": "Revolução Russa" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV4003",
+            "nivel": 4,
+            "tema": "Ciência",
+            "pergunta": "Quem formulou a teoria da evolução das espécies por seleção natural?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Charles Darwin" },
+                { "id_alt": 2, "alternativa": "Gregor Mendel" },
+                { "id_alt": 3, "alternativa": "Jean-Baptiste Lamarck" },
+                { "id_alt": 4, "alternativa": "Louis Pasteur" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV4004",
+            "nivel": 4,
+            "tema": "Matemática",
+            "pergunta": "Qual é a solução para a equação quadrática x² - 5x + 6 = 0?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "x = 1, x = 6" },
+                { "id_alt": 2, "alternativa": "x = 2, x = 3" },
+                { "id_alt": 3, "alternativa": "x = -2, x = 3" },
+                { "id_alt": 4, "alternativa": "x = -1, x = -6" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV4005",
+            "nivel": 4,
+            "tema": "Literatura",
+            "pergunta": "Qual escritor é considerado o maior representante do Realismo no Brasil?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "José de Alencar" },
+                { "id_alt": 2, "alternativa": "Machado de Assis" },
+                { "id_alt": 3, "alternativa": "Aluisio Azevedo" },
+                { "id_alt": 4, "alternativa": "Monteiro Lobato" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV4006",
+            "nivel": 4,
+            "tema": "Geografia",
+            "pergunta": "Qual é o maior arquipélago do mundo em termos de número de ilhas?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Ilhas Maldivas" },
+                { "id_alt": 2, "alternativa": "Ilhas Filipinas" },
+                { "id_alt": 3, "alternativa": "Indonésia" },
+                { "id_alt": 4, "alternativa": "Ilhas Svalbard" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV4007",
+            "nivel": 4,
+            "tema": "História",
+            "pergunta": "Quem foi o último imperador do Brasil?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Dom Pedro I" },
+                { "id_alt": 2, "alternativa": "Dom Pedro II" },
+                { "id_alt": 3, "alternativa": "Dom João VI" },
+                { "id_alt": 4, "alternativa": "Dom Miguel I" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV4008",
+            "nivel": 4,
+            "tema": "Ciência",
+            "pergunta": "Qual é a partícula subatômica que tem carga elétrica negativa?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Próton" },
+                { "id_alt": 2, "alternativa": "Nêutron" },
+                { "id_alt": 3, "alternativa": "Elétron" },
+                { "id_alt": 4, "alternativa": "Positrão" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV4009",
+            "nivel": 4,
+            "tema": "Matemática",
+            "pergunta": "Qual é o valor de ∫(0 a 1) x² dx?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "1/3" },
+                { "id_alt": 2, "alternativa": "1/4" },
+                { "id_alt": 3, "alternativa": "1/2" },
+                { "id_alt": 4, "alternativa": "2/3" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV4010",
+            "nivel": 4,
+            "tema": "Literatura",
+            "pergunta": "Em que obra de Homero se encontra a personagem Ulisses?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Ilíada" },
+                { "id_alt": 2, "alternativa": "Odisseia" },
+                { "id_alt": 3, "alternativa": "Eneida" },
+                { "id_alt": 4, "alternativa": "Antígona" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV4011",
+            "nivel": 4,
+            "tema": "Geografia",
+            "pergunta": "Em qual continente está localizado o deserto de Atacama?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "África" },
+                { "id_alt": 2, "alternativa": "América do Sul" },
+                { "id_alt": 3, "alternativa": "Ásia" },
+                { "id_alt": 4, "alternativa": "América do Norte" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV4012",
+            "nivel": 4,
+            "tema": "História",
+            "pergunta": "Quem foi o líder militar que comandou a Revolução Francesa em 1799?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Maximilien Robespierre" },
+                { "id_alt": 2, "alternativa": "Napoleão Bonaparte" },
+                { "id_alt": 3, "alternativa": "Louis XVI" },
+                { "id_alt": 4, "alternativa": "Jean-Paul Marat" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV4013",
+            "nivel": 4,
+            "tema": "Ciência",
+            "pergunta": "Qual é o nome da teoria que descreve a origem do universo como uma grande explosão?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Teoria da Relatividade" },
+                { "id_alt": 2, "alternativa": "Teoria do Big Bang" },
+                { "id_alt": 3, "alternativa": "Teoria da Evolução" },
+                { "id_alt": 4, "alternativa": "Teoria do Multiverso" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV4014",
+            "nivel": 4,
+            "tema": "Matemática",
+            "pergunta": "Qual é a integral de 1/x dx?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "ln|x|" },
+                { "id_alt": 2, "alternativa": "x²" },
+                { "id_alt": 3, "alternativa": "e^x" },
+                { "id_alt": 4, "alternativa": "x" }
+            ],
+            "correta": 1
+        }, {
+            "id": "NV4015",
+            "nivel": 4,
+            "tema": "Geografia",
+            "pergunta": "Qual é o maior país em área do mundo?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Estados Unidos" },
+                { "id_alt": 2, "alternativa": "China" },
+                { "id_alt": 3, "alternativa": "Rússia" },
+                { "id_alt": 4, "alternativa": "Canadá" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV4016",
+            "nivel": 4,
+            "tema": "História",
+            "pergunta": "Qual foi o principal tratado que marcou o fim da Primeira Guerra Mundial?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Tratado de Paris" },
+                { "id_alt": 2, "alternativa": "Tratado de Versalhes" },
+                { "id_alt": 3, "alternativa": "Tratado de Tordesilhas" },
+                { "id_alt": 4, "alternativa": "Tratado de Saint-Germain" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV4017",
+            "nivel": 4,
+            "tema": "Ciência",
+            "pergunta": "Quem desenvolveu a teoria da relatividade?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Isaac Newton" },
+                { "id_alt": 2, "alternativa": "Albert Einstein" },
+                { "id_alt": 3, "alternativa": "Max Planck" },
+                { "id_alt": 4, "alternativa": "Niels Bohr" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV4018",
+            "nivel": 4,
+            "tema": "Matemática",
+            "pergunta": "Qual é o valor de e (constante de Euler) arredondado a quatro casas decimais?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "2,7182" },
+                { "id_alt": 2, "alternativa": "3,1416" },
+                { "id_alt": 3, "alternativa": "1,6180" },
+                { "id_alt": 4, "alternativa": "2,3026" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV4019",
+            "nivel": 4,
+            "tema": "Literatura",
+            "pergunta": "Quem escreveu a obra 'Dom Quixote'?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Gabriel García Márquez" },
+                { "id_alt": 2, "alternativa": "Miguel de Cervantes" },
+                { "id_alt": 3, "alternativa": "William Shakespeare" },
+                { "id_alt": 4, "alternativa": "Mark Twain" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV4020",
+            "nivel": 4,
+            "tema": "Geografia",
+            "pergunta": "Qual é o maior oceano do planeta?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Oceano Atlântico" },
+                { "id_alt": 2, "alternativa": "Oceano Índico" },
+                { "id_alt": 3, "alternativa": "Oceano Ártico" },
+                { "id_alt": 4, "alternativa": "Oceano Pacífico" }
+            ],
+            "correta": 4
+        },
+        {
+            "id": "NV4021",
+            "nivel": 4,
+            "tema": "História",
+            "pergunta": "Em que ano foi proclamada a independência dos Estados Unidos?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "1776" },
+                { "id_alt": 2, "alternativa": "1789" },
+                { "id_alt": 3, "alternativa": "1800" },
+                { "id_alt": 4, "alternativa": "1812" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV4022",
+            "nivel": 4,
+            "tema": "Ciência",
+            "pergunta": "Qual dos seguintes elementos químicos é um gás nobre?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Oxigênio" },
+                { "id_alt": 2, "alternativa": "Nitrogênio" },
+                { "id_alt": 3, "alternativa": "Hélio" },
+                { "id_alt": 4, "alternativa": "Carbono" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV4023",
+            "nivel": 4,
+            "tema": "Matemática",
+            "pergunta": "Qual é a solução da equação log(x) = 2?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "x = 10" },
+                { "id_alt": 2, "alternativa": "x = 100" },
+                { "id_alt": 3, "alternativa": "x = 2" },
+                { "id_alt": 4, "alternativa": "x = 1" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV4024",
+            "nivel": 4,
+            "tema": "Literatura",
+            "pergunta": "Em que país foi escrito o romance 'Crime e Castigo'?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "França" },
+                { "id_alt": 2, "alternativa": "Rússia" },
+                { "id_alt": 3, "alternativa": "Inglaterra" },
+                { "id_alt": 4, "alternativa": "Alemanha" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV4025",
+            "nivel": 4,
+            "tema": "Geografia",
+            "pergunta": "Qual é o rio mais longo da África?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Rio Congo" },
+                { "id_alt": 2, "alternativa": "Rio Níger" },
+                { "id_alt": 3, "alternativa": "Rio Nilo" },
+                { "id_alt": 4, "alternativa": "Rio Zambeze" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV4026",
+            "nivel": 4,
+            "tema": "História",
+            "pergunta": "Quem foi o imperador romano que legalizou o Cristianismo no Império Romano?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Júlio César" },
+                { "id_alt": 2, "alternativa": "Constantino" },
+                { "id_alt": 3, "alternativa": "Augusto" },
+                { "id_alt": 4, "alternativa": "Nero" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV4027",
+            "nivel": 4,
+            "tema": "Ciência",
+            "pergunta": "O que é a 'fórmula de Schrödinger' em física?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Uma equação de onda na mecânica quântica" },
+                { "id_alt": 2, "alternativa": "Uma equação da relatividade geral" },
+                { "id_alt": 3, "alternativa": "Uma fórmula de física clássica" },
+                { "id_alt": 4, "alternativa": "Uma equação de campo elétrico" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV4028",
+            "nivel": 4,
+            "tema": "Matemática",
+            "pergunta": "Qual é a derivada de sen(x)?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "cos(x)" },
+                { "id_alt": 2, "alternativa": "-cos(x)" },
+                { "id_alt": 3, "alternativa": "tan(x)" },
+                { "id_alt": 4, "alternativa": "-tan(x)" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV4029",
+            "nivel": 4,
+            "tema": "Literatura",
+            "pergunta": "Quem escreveu o livro 'Moby Dick'?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Herman Melville" },
+                { "id_alt": 2, "alternativa": "Charles Dickens" },
+                { "id_alt": 3, "alternativa": "F. Scott Fitzgerald" },
+                { "id_alt": 4, "alternativa": "James Joyce" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV4030",
+            "nivel": 4,
+            "tema": "Geografia",
+            "pergunta": "Qual é o maior deserto quente do mundo?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Deserto da Arábia" },
+                { "id_alt": 2, "alternativa": "Deserto de Kalahari" },
+                { "id_alt": 3, "alternativa": "Deserto de Gobi" },
+                { "id_alt": 4, "alternativa": "Deserto do Saara" }
+            ],
+            "correta": 4
+        },
+        {
+            "id": "NV4031",
+            "nivel": 4,
+            "tema": "Geografia",
+            "pergunta": "Qual é a capital da Mongólia?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Ulaanbaatar" },
+                { "id_alt": 2, "alternativa": "Astana" },
+                { "id_alt": 3, "alternativa": "Tashkent" },
+                { "id_alt": 4, "alternativa": "Bishkek" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV4032",
+            "nivel": 4,
+            "tema": "História",
+            "pergunta": "Qual foi a principal razão para a queda do Império Romano do Ocidente?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "A invasão dos vikings" },
+                { "id_alt": 2, "alternativa": "A ascensão do Cristianismo" },
+                { "id_alt": 3, "alternativa": "A fragmentação política e econômica" },
+                { "id_alt": 4, "alternativa": "O colapso das fronteiras do império" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV4033",
+            "nivel": 4,
+            "tema": "Ciência",
+            "pergunta": "Qual é a principal função dos ribossomos nas células?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Produzir energia celular" },
+                { "id_alt": 2, "alternativa": "Produzir proteínas" },
+                { "id_alt": 3, "alternativa": "Armazenar material genético" },
+                { "id_alt": 4, "alternativa": "Realizar a respiração celular" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV4034",
+            "nivel": 4,
+            "tema": "Matemática",
+            "pergunta": "Qual é o valor de x na equação quadrática 2x² - 4x - 6 = 0?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "x = 3" },
+                { "id_alt": 2, "alternativa": "x = -3 e x = 1" },
+                { "id_alt": 3, "alternativa": "x = -1 e x = 3" },
+                { "id_alt": 4, "alternativa": "x = -1 e x = -3" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV4035",
+            "nivel": 4,
+            "tema": "Literatura",
+            "pergunta": "Quem escreveu 'O Processo'?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Franz Kafka" },
+                { "id_alt": 2, "alternativa": "James Joyce" },
+                { "id_alt": 3, "alternativa": "William Faulkner" },
+                { "id_alt": 4, "alternativa": "Gabriel García Márquez" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV4036",
+            "nivel": 4,
+            "tema": "Geografia",
+            "pergunta": "Qual é o maior arquipélago do mundo?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Arquipélago da Indonésia" },
+                { "id_alt": 2, "alternativa": "Arquipélago das Filipinas" },
+                { "id_alt": 3, "alternativa": "Arquipélago da Nova Zelândia" },
+                { "id_alt": 4, "alternativa": "Arquipélago do Japão" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV4037",
+            "nivel": 4,
+            "tema": "História",
+            "pergunta": "Quem foi o último imperador do Império Romano do Ocidente?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Constantino I" },
+                { "id_alt": 2, "alternativa": "Rômulo Augusto" },
+                { "id_alt": 3, "alternativa": "Teodósio I" },
+                { "id_alt": 4, "alternativa": "Diocleciano" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV4038",
+            "nivel": 4,
+            "tema": "Ciência",
+            "pergunta": "Qual é o nome do processo em que as plantas convertem luz solar em energia?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Respiração celular" },
+                { "id_alt": 2, "alternativa": "Fotossíntese" },
+                { "id_alt": 3, "alternativa": "Fermentação" },
+                { "id_alt": 4, "alternativa": "Transpiração" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV4039",
+            "nivel": 4,
+            "tema": "Matemática",
+            "pergunta": "Qual é o valor de log(1000)?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "3" },
+                { "id_alt": 2, "alternativa": "2" },
+                { "id_alt": 3, "alternativa": "4" },
+                { "id_alt": 4, "alternativa": "1" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV4040",
+            "nivel": 4,
+            "tema": "Literatura",
+            "pergunta": "Qual obra de Shakespeare foi escrita em 1606 e é centrada na figura de um general romano?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Macbeth" },
+                { "id_alt": 2, "alternativa": "Rei Lear" },
+                { "id_alt": 3, "alternativa": "Otelo" },
+                { "id_alt": 4, "alternativa": "Júlio César" }
+            ],
+            "correta": 4
+        },
+        {
+            "id": "NV4041",
+            "nivel": 4,
+            "tema": "Geografia",
+            "pergunta": "Qual é o nome do deserto localizado na Arábia Saudita e considerado o maior deserto quente do mundo?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Deserto de Gobi" },
+                { "id_alt": 2, "alternativa": "Deserto do Saara" },
+                { "id_alt": 3, "alternativa": "Deserto da Arábia" },
+                { "id_alt": 4, "alternativa": "Deserto de Kalahari" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV4042",
+            "nivel": 4,
+            "tema": "História",
+            "pergunta": "Qual tratado assinando após a Primeira Guerra Mundial estabeleceu as condições para o fim do império alemão?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Tratado de Versalhes" },
+                { "id_alt": 2, "alternativa": "Tratado de Tordesilhas" },
+                { "id_alt": 3, "alternativa": "Tratado de Paris" },
+                { "id_alt": 4, "alternativa": "Tratado de Brest-Litovsk" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV4043",
+            "nivel": 4,
+            "tema": "História",
+            "pergunta": "Qual foi a principal causa da Primeira Guerra Mundial?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "A Revolução Industrial" },
+                { "id_alt": 2, "alternativa": "O assassinato do Arquiduque Francisco Ferdinando" },
+                { "id_alt": 3, "alternativa": "A Crise de Suez" },
+                { "id_alt": 4, "alternativa": "A ascensão do nacionalismo na Europa" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV4044",
+            "nivel": 4,
+            "tema": "Ciência",
+            "pergunta": "Qual é o nome do cientista que formulou a teoria da relatividade?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Isaac Newton" },
+                { "id_alt": 2, "alternativa": "Albert Einstein" },
+                { "id_alt": 3, "alternativa": "Nikola Tesla" },
+                { "id_alt": 4, "alternativa": "Marie Curie" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV4045",
+            "nivel": 4,
+            "tema": "Matemática",
+            "pergunta": "Qual é o valor de π (pi) com 10 casas decimais?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "3,1415926535" },
+                { "id_alt": 2, "alternativa": "3,1415926533" },
+                { "id_alt": 3, "alternativa": "3,1415926475" },
+                { "id_alt": 4, "alternativa": "3,1415936535" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV4046",
+            "nivel": 4,
+            "tema": "Geografia",
+            "pergunta": "Qual é o maior país do mundo em extensão territorial?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Estados Unidos" },
+                { "id_alt": 2, "alternativa": "Brasil" },
+                { "id_alt": 3, "alternativa": "China" },
+                { "id_alt": 4, "alternativa": "Rússia" }
+            ],
+            "correta": 4
+        },
+        {
+            "id": "NV4047",
+            "nivel": 4,
+            "tema": "Literatura",
+            "pergunta": "Quem escreveu 'Dom Quixote', uma das maiores obras literárias da história?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Miguel de Cervantes" },
+                { "id_alt": 2, "alternativa": "William Shakespeare" },
+                { "id_alt": 3, "alternativa": "Jorge Luis Borges" },
+                { "id_alt": 4, "alternativa": "Gabriel García Márquez" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV4048",
+            "nivel": 4,
+            "tema": "História",
+            "pergunta": "Em qual batalha Napoleão Bonaparte foi derrotado pela última vez?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Batalha de Waterloo" },
+                { "id_alt": 2, "alternativa": "Batalha de Leipzig" },
+                { "id_alt": 3, "alternativa": "Batalha de Austerlitz" },
+                { "id_alt": 4, "alternativa": "Batalha de Borodino" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV4049",
+            "nivel": 4,
+            "tema": "Ciência",
+            "pergunta": "Quem descobriu a penicilina, a primeira antibiótico conhecido?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Marie Curie" },
+                { "id_alt": 2, "alternativa": "Louis Pasteur" },
+                { "id_alt": 3, "alternativa": "Alexander Fleming" },
+                { "id_alt": 4, "alternativa": "Edward Jenner" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV4050",
+            "nivel": 4,
+            "tema": "Matemática",
+            "pergunta": "O que é o número de Euler (e) e qual seu valor aproximado?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "É a base do logaritmo natural, aproximadamente 2,718" },
+                { "id_alt": 2, "alternativa": "É a constante para o cálculo de áreas, aproximadamente 3,141" },
+                { "id_alt": 3, "alternativa": "É a constante usada na fórmula da física quântica, aproximadamente 2,414" },
+                { "id_alt": 4, "alternativa": "É o número áureo, aproximadamente 1,618" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV4051",
+            "nivel": 4,
+            "tema": "Geografia",
+            "pergunta": "Qual é o nome da maior cadeia de montanhas do mundo?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Os Andes" },
+                { "id_alt": 2, "alternativa": "A Cordilheira do Himalaia" },
+                { "id_alt": 3, "alternativa": "Os Alpes" },
+                { "id_alt": 4, "alternativa": "Os Pirineus" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV4052",
+            "nivel": 4,
+            "tema": "Literatura",
+            "pergunta": "Qual é o título do famoso romance distópico de George Orwell, publicado em 1949?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Admirável Mundo Novo" },
+                { "id_alt": 2, "alternativa": "Fahrenheit 451" },
+                { "id_alt": 3, "alternativa": "1984" },
+                { "id_alt": 4, "alternativa": "O Conto da Aia" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV4053",
+            "nivel": 4,
+            "tema": "História",
+            "pergunta": "Quem foi o responsável pela fundação do Império Mongol?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Kublai Khan" },
+                { "id_alt": 2, "alternativa": "Genghis Khan" },
+                { "id_alt": 3, "alternativa": "Kublai Khan" },
+                { "id_alt": 4, "alternativa": "Tamerlão" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV4054",
+            "nivel": 4,
+            "tema": "Ciência",
+            "pergunta": "O que é a teoria do Big Bang?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "A ideia de que o universo é estático e imutável" },
+                { "id_alt": 2, "alternativa": "A teoria de que a Terra foi formada por uma explosão solar" },
+                { "id_alt": 3, "alternativa": "A teoria de que o universo teve origem a partir de uma grande explosão" },
+                { "id_alt": 4, "alternativa": "A teoria de que a Terra é o centro do universo" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV4055",
+            "nivel": 4,
+            "tema": "Matemática",
+            "pergunta": "Qual é a fórmula para o cálculo da área de um círculo?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "A = πr²" },
+                { "id_alt": 2, "alternativa": "A = 2πr" },
+                { "id_alt": 3, "alternativa": "A = πd" },
+                { "id_alt": 4, "alternativa": "A = r²" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV4056",
+            "nivel": 4,
+            "tema": "Geografia",
+            "pergunta": "Qual é o nome do maior deserto quente do mundo?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Deserto de Atacama" },
+                { "id_alt": 2, "alternativa": "Deserto da Arábia" },
+                { "id_alt": 3, "alternativa": "Deserto de Sonora" },
+                { "id_alt": 4, "alternativa": "Deserto do Saara" }
+            ],
+            "correta": 4
+        },
+        {
+            "id": "NV4057",
+            "nivel": 4,
+            "tema": "Literatura",
+            "pergunta": "Quem escreveu a obra 'O Senhor dos Anéis'?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "J.K. Rowling" },
+                { "id_alt": 2, "alternativa": "J.R.R. Tolkien" },
+                { "id_alt": 3, "alternativa": "George R.R. Martin" },
+                { "id_alt": 4, "alternativa": "C.S. Lewis" }
+            ],
+            "correta": 2
+        }
+    ]
+}

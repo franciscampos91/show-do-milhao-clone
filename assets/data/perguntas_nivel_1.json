@@ -194,6 +194,851 @@
                 { "id_alt": 4, "alternativa": "12" }
             ],
             "correta": 3
+        },
+        {
+            "id": "NV1016",
+            "nivel": 2,
+            "tema": "Geografia",
+            "pergunta": "Qual é o continente com maior população?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "África" },
+                { "id_alt": 2, "alternativa": "Ásia" },
+                { "id_alt": 3, "alternativa": "América" },
+                { "id_alt": 4, "alternativa": "Europa" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV1017",
+            "nivel": 2,
+            "tema": "História",
+            "pergunta": "Em que ano terminou a Segunda Guerra Mundial?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "1943" },
+                { "id_alt": 2, "alternativa": "1945" },
+                { "id_alt": 3, "alternativa": "1950" },
+                { "id_alt": 4, "alternativa": "1955" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV1018",
+            "nivel": 2,
+            "tema": "Ciência",
+            "pergunta": "Qual é o maior órgão do corpo humano?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Coração" },
+                { "id_alt": 2, "alternativa": "Fígado" },
+                { "id_alt": 3, "alternativa": "Pele" },
+                { "id_alt": 4, "alternativa": "Cérebro" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV1019",
+            "nivel": 2,
+            "tema": "Cultura Geral",
+            "pergunta": "Qual é o autor de 'Harry Potter'?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "J.R.R. Tolkien" },
+                { "id_alt": 2, "alternativa": "J.K. Rowling" },
+                { "id_alt": 3, "alternativa": "George R.R. Martin" },
+                { "id_alt": 4, "alternativa": "C.S. Lewis" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV1020",
+            "nivel": 2,
+            "tema": "Matemática",
+            "pergunta": "Qual é o valor de π (pi)?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "3.14" },
+                { "id_alt": 2, "alternativa": "2.71" },
+                { "id_alt": 3, "alternativa": "1.61" },
+                { "id_alt": 4, "alternativa": "3.00" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV1021",
+            "nivel": 2,
+            "tema": "Geografia",
+            "pergunta": "Qual é o rio mais longo do mundo?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Rio Nilo" },
+                { "id_alt": 2, "alternativa": "Rio Amazonas" },
+                { "id_alt": 3, "alternativa": "Rio Yangtzé" },
+                { "id_alt": 4, "alternativa": "Rio Mississippi" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV1022",
+            "nivel": 2,
+            "tema": "História",
+            "pergunta": "Em que ano foi proclamada a República no Brasil?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "1889" },
+                { "id_alt": 2, "alternativa": "1822" },
+                { "id_alt": 3, "alternativa": "1930" },
+                { "id_alt": 4, "alternativa": "1964" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV1023",
+            "nivel": 2,
+            "tema": "Ciência",
+            "pergunta": "Qual é o elemento químico com símbolo 'O'?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Ouro" },
+                { "id_alt": 2, "alternativa": "Oxigênio" },
+                { "id_alt": 3, "alternativa": "Ósmio" },
+                { "id_alt": 4, "alternativa": "Oganessônio" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV1024",
+            "nivel": 2,
+            "tema": "Cultura Geral",
+            "pergunta": "Quem pintou a Mona Lisa?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Vincent van Gogh" },
+                { "id_alt": 2, "alternativa": "Pablo Picasso" },
+                { "id_alt": 3, "alternativa": "Leonardo da Vinci" },
+                { "id_alt": 4, "alternativa": "Claude Monet" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV1025",
+            "nivel": 2,
+            "tema": "Esportes",
+            "pergunta": "Qual é o país sede da Copa do Mundo de 2022?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Rússia" },
+                { "id_alt": 2, "alternativa": "Catar" },
+                { "id_alt": 3, "alternativa": "Brasil" },
+                { "id_alt": 4, "alternativa": "França" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV1026",
+            "nivel": 2,
+            "tema": "Geografia",
+            "pergunta": "Qual é a maior ilha do mundo?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Groelândia" },
+                { "id_alt": 2, "alternativa": "Austrália" },
+                { "id_alt": 3, "alternativa": "Baffin" },
+                { "id_alt": 4, "alternativa": "Madagascar" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV1027",
+            "nivel": 3,
+            "tema": "Matemática",
+            "pergunta": "Qual é o valor de 25²?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "125" },
+                { "id_alt": 2, "alternativa": "625" },
+                { "id_alt": 3, "alternativa": "250" },
+                { "id_alt": 4, "alternativa": "500" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV1028",
+            "nivel": 3,
+            "tema": "História",
+            "pergunta": "Quem foi o primeiro imperador do Brasil?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Dom Pedro I" },
+                { "id_alt": 2, "alternativa": "Dom Pedro II" },
+                { "id_alt": 3, "alternativa": "Getúlio Vargas" },
+                { "id_alt": 4, "alternativa": "Juscelino Kubitschek" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV1029",
+            "nivel": 3,
+            "tema": "Ciência",
+            "pergunta": "Qual é o planeta mais próximo do Sol?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Vênus" },
+                { "id_alt": 2, "alternativa": "Terra" },
+                { "id_alt": 3, "alternativa": "Mercúrio" },
+                { "id_alt": 4, "alternativa": "Marte" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV1030",
+            "nivel": 3,
+            "tema": "Cultura Geral",
+            "pergunta": "Quem escreveu 'Cem Anos de Solidão'?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Gabriel García Márquez" },
+                { "id_alt": 2, "alternativa": "Jorge Luis Borges" },
+                { "id_alt": 3, "alternativa": "Mario Vargas Llosa" },
+                { "id_alt": 4, "alternativa": "Pablo Neruda" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV1031",
+            "nivel": 3,
+            "tema": "Esportes",
+            "pergunta": "Em que ano o Brasil conquistou sua primeira Copa do Mundo de Futebol?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "1950" },
+                { "id_alt": 2, "alternativa": "1958" },
+                { "id_alt": 3, "alternativa": "1962" },
+                { "id_alt": 4, "alternativa": "1970" }
+            ],
+            "correta": 2
+        }, 
+        {
+            "id": "NV1032",
+            "nivel": 1,
+            "tema": "Geografia",
+            "pergunta": "Qual é o maior país da América do Sul?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Argentina" },
+                { "id_alt": 2, "alternativa": "Colômbia" },
+                { "id_alt": 3, "alternativa": "Brasil" },
+                { "id_alt": 4, "alternativa": "Chile" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV1033",
+            "nivel": 1,
+            "tema": "História",
+            "pergunta": "Em que ano o Brasil se tornou independente de Portugal?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "1822" },
+                { "id_alt": 2, "alternativa": "1889" },
+                { "id_alt": 3, "alternativa": "1500" },
+                { "id_alt": 4, "alternativa": "1871" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV1034",
+            "nivel": 1,
+            "tema": "Ciência",
+            "pergunta": "Qual é o maior órgão do corpo humano?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Coração" },
+                { "id_alt": 2, "alternativa": "Cérebro" },
+                { "id_alt": 3, "alternativa": "Fígado" },
+                { "id_alt": 4, "alternativa": "Pele" }
+            ],
+            "correta": 4
+        },
+        {
+            "id": "NV1035",
+            "nivel": 1,
+            "tema": "Cultura Geral",
+            "pergunta": "Qual é o nome da famosa Torre localizada em Paris?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Torre de Londres" },
+                { "id_alt": 2, "alternativa": "Torre Eiffel" },
+                { "id_alt": 3, "alternativa": "Torre de Pisa" },
+                { "id_alt": 4, "alternativa": "Torre Burj Khalifa" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV1036",
+            "nivel": 1,
+            "tema": "Esportes",
+            "pergunta": "Quem é conhecido como o 'Rei do Futebol'?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Pelé" },
+                { "id_alt": 2, "alternativa": "Zico" },
+                { "id_alt": 3, "alternativa": "Romário" },
+                { "id_alt": 4, "alternativa": "Ronaldo Fenômeno" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV1037",
+            "nivel": 1,
+            "tema": "Geografia",
+            "pergunta": "Qual é o continente que possui o maior número de países?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "África" },
+                { "id_alt": 2, "alternativa": "Ásia" },
+                { "id_alt": 3, "alternativa": "Europa" },
+                { "id_alt": 4, "alternativa": "América" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV1038",
+            "nivel": 1,
+            "tema": "História",
+            "pergunta": "Quem foi o responsável pela descoberta do Brasil?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Pedro Álvares Cabral" },
+                { "id_alt": 2, "alternativa": "Cristóvão Colombo" },
+                { "id_alt": 3, "alternativa": "Vasco da Gama" },
+                { "id_alt": 4, "alternativa": "Fernão de Magalhães" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV1039",
+            "nivel": 1,
+            "tema": "Ciência",
+            "pergunta": "Qual é o elemento químico representado pela letra H na tabela periódica?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Hélio" },
+                { "id_alt": 2, "alternativa": "Hidrogênio" },
+                { "id_alt": 3, "alternativa": "Halógeno" },
+                { "id_alt": 4, "alternativa": "Hafnium" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV1040",
+            "nivel": 1,
+            "tema": "Cultura Geral",
+            "pergunta": "Qual é o nome do famoso computador da Apple?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "MacBook" },
+                { "id_alt": 2, "alternativa": "iMac" },
+                { "id_alt": 3, "alternativa": "Macintosh" },
+                { "id_alt": 4, "alternativa": "iPad" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV1041",
+            "nivel": 1,
+            "tema": "Esportes",
+            "pergunta": "Quantos jogadores formam um time de basquete?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "5" },
+                { "id_alt": 2, "alternativa": "6" },
+                { "id_alt": 3, "alternativa": "7" },
+                { "id_alt": 4, "alternativa": "8" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV1042",
+            "nivel": 1,
+            "tema": "História",
+            "pergunta": "Quem foi o último imperador do Brasil?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Pedro I" },
+                { "id_alt": 2, "alternativa": "Pedro II" },
+                { "id_alt": 3, "alternativa": "Dom João VI" },
+                { "id_alt": 4, "alternativa": "Dom Pedro IV" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV1043",
+            "nivel": 1,
+            "tema": "Geografia",
+            "pergunta": "Qual é a maior cidade do Brasil em número de habitantes?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Rio de Janeiro" },
+                { "id_alt": 2, "alternativa": "São Paulo" },
+                { "id_alt": 3, "alternativa": "Brasília" },
+                { "id_alt": 4, "alternativa": "Salvador" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV1044",
+            "nivel": 1,
+            "tema": "Ciência",
+            "pergunta": "O que é a fotossíntese?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "A produção de alimentos pelas plantas a partir da luz solar" },
+                { "id_alt": 2, "alternativa": "A respiração das plantas" },
+                { "id_alt": 3, "alternativa": "A transformação de oxigênio em dióxido de carbono" },
+                { "id_alt": 4, "alternativa": "O processo de reprodução das plantas" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV1045",
+            "nivel": 1,
+            "tema": "Esportes",
+            "pergunta": "Em que esporte se utiliza uma raquete para bater uma bola sobre uma rede?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Tênis" },
+                { "id_alt": 2, "alternativa": "Futebol" },
+                { "id_alt": 3, "alternativa": "Basquete" },
+                { "id_alt": 4, "alternativa": "Vôlei" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV1046",
+            "nivel": 1,
+            "tema": "Cultura Geral",
+            "pergunta": "Quem é o autor da obra 'O Guarani'?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "José de Alencar" },
+                { "id_alt": 2, "alternativa": "Machado de Assis" },
+                { "id_alt": 3, "alternativa": "Monteiro Lobato" },
+                { "id_alt": 4, "alternativa": "Raul Pompeia" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV1047",
+            "nivel": 1,
+            "tema": "História",
+            "pergunta": "Em que ano a Segunda Guerra Mundial terminou?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "1942" },
+                { "id_alt": 2, "alternativa": "1945" },
+                { "id_alt": 3, "alternativa": "1939" },
+                { "id_alt": 4, "alternativa": "1950" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV1048",
+            "nivel": 1,
+            "tema": "Geografia",
+            "pergunta": "Qual é a maior montanha do mundo?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Monte Everest" },
+                { "id_alt": 2, "alternativa": "Monte Kilimanjaro" },
+                { "id_alt": 3, "alternativa": "Monte Fuji" },
+                { "id_alt": 4, "alternativa": "Monte Aconcágua" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV1049",
+            "nivel": 1,
+            "tema": "Ciência",
+            "pergunta": "Qual é a principal fonte de energia para as plantas?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Água" },
+                { "id_alt": 2, "alternativa": "Luz solar" },
+                { "id_alt": 3, "alternativa": "Fósforo" },
+                { "id_alt": 4, "alternativa": "Gás carbônico" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV1050",
+            "nivel": 1,
+            "tema": "Esportes",
+            "pergunta": "Em que esporte o Brasil é hexacampeão mundial?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Basquete" },
+                { "id_alt": 2, "alternativa": "Futebol" },
+                { "id_alt": 3, "alternativa": "Vôlei" },
+                { "id_alt": 4, "alternativa": "Handebol" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV1051",
+            "nivel": 1,
+            "tema": "Geografia",
+            "pergunta": "Qual é o maior oceano do planeta?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Oceano Atlântico" },
+                { "id_alt": 2, "alternativa": "Oceano Índico" },
+                { "id_alt": 3, "alternativa": "Oceano Ártico" },
+                { "id_alt": 4, "alternativa": "Oceano Pacífico" }
+            ],
+            "correta": 4
+        },
+        {
+            "id": "NV1052",
+            "nivel": 1,
+            "tema": "História",
+            "pergunta": "Qual foi a primeira civilização conhecida?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Egípcia" },
+                { "id_alt": 2, "alternativa": "Suméria" },
+                { "id_alt": 3, "alternativa": "Gregos" },
+                { "id_alt": 4, "alternativa": "Romana" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV1053",
+            "nivel": 1,
+            "tema": "Ciência",
+            "pergunta": "Qual é o planeta mais próximo do Sol?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Vênus" },
+                { "id_alt": 2, "alternativa": "Terra" },
+                { "id_alt": 3, "alternativa": "Mercúrio" },
+                { "id_alt": 4, "alternativa": "Marte" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV1054",
+            "nivel": 1,
+            "tema": "Cultura Geral",
+            "pergunta": "Quem pintou a Mona Lisa?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Vincent van Gogh" },
+                { "id_alt": 2, "alternativa": "Pablo Picasso" },
+                { "id_alt": 3, "alternativa": "Leonardo da Vinci" },
+                { "id_alt": 4, "alternativa": "Claude Monet" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV1055",
+            "nivel": 1,
+            "tema": "Esportes",
+            "pergunta": "Quantos jogadores há em um time de futebol?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "9" },
+                { "id_alt": 2, "alternativa": "10" },
+                { "id_alt": 3, "alternativa": "11" },
+                { "id_alt": 4, "alternativa": "12" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV1056",
+            "nivel": 1,
+            "tema": "Geografia",
+            "pergunta": "Qual é o maior continente em termos de área?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "África" },
+                { "id_alt": 2, "alternativa": "América" },
+                { "id_alt": 3, "alternativa": "Ásia" },
+                { "id_alt": 4, "alternativa": "Europa" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV1057",
+            "nivel": 1,
+            "tema": "História",
+            "pergunta": "Quem foi o primeiro presidente do Brasil?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Getúlio Vargas" },
+                { "id_alt": 2, "alternativa": "Juscelino Kubitschek" },
+                { "id_alt": 3, "alternativa": "Marechal Deodoro da Fonseca" },
+                { "id_alt": 4, "alternativa": "Tancredo Neves" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV1058",
+            "nivel": 1,
+            "tema": "Ciência",
+            "pergunta": "Qual é o nome do gás fundamental para a respiração humana?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Dióxido de carbono" },
+                { "id_alt": 2, "alternativa": "Oxigênio" },
+                { "id_alt": 3, "alternativa": "Nitrogênio" },
+                { "id_alt": 4, "alternativa": "Hidrogênio" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV1059",
+            "nivel": 1,
+            "tema": "Cultura Geral",
+            "pergunta": "Qual é o nome da série famosa que envolve um time de detetives e é ambientada em New York?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Friends" },
+                { "id_alt": 2, "alternativa": "The Office" },
+                { "id_alt": 3, "alternativa": "CSI: NY" },
+                { "id_alt": 4, "alternativa": "Law & Order: SVU" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV1060",
+            "nivel": 1,
+            "tema": "Esportes",
+            "pergunta": "Em que país a Copa do Mundo de Futebol de 2018 foi realizada?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Brasil" },
+                { "id_alt": 2, "alternativa": "França" },
+                { "id_alt": 3, "alternativa": "Rússia" },
+                { "id_alt": 4, "alternativa": "Alemanha" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV1061",
+            "nivel": 1,
+            "tema": "Geografia",
+            "pergunta": "Qual é o rio mais longo do mundo?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Rio Amazonas" },
+                { "id_alt": 2, "alternativa": "Rio Nilo" },
+                { "id_alt": 3, "alternativa": "Rio Yangtzé" },
+                { "id_alt": 4, "alternativa": "Rio Mississippi" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV1062",
+            "nivel": 1,
+            "tema": "História",
+            "pergunta": "Em que ano o Brasil se tornou República?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "1889" },
+                { "id_alt": 2, "alternativa": "1822" },
+                { "id_alt": 3, "alternativa": "1888" },
+                { "id_alt": 4, "alternativa": "1900" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV1063",
+            "nivel": 1,
+            "tema": "Ciência",
+            "pergunta": "Qual é a substância responsável pela cor verde nas plantas?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Clorofila" },
+                { "id_alt": 2, "alternativa": "Caroteno" },
+                { "id_alt": 3, "alternativa": "Antocianina" },
+                { "id_alt": 4, "alternativa": "Luteína" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV1064",
+            "nivel": 1,
+            "tema": "Cultura Geral",
+            "pergunta": "Em que ano foi lançado o primeiro filme da saga 'Star Wars'?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "1975" },
+                { "id_alt": 2, "alternativa": "1980" },
+                { "id_alt": 3, "alternativa": "1977" },
+                { "id_alt": 4, "alternativa": "1995" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV1065",
+            "nivel": 1,
+            "tema": "Esportes",
+            "pergunta": "Qual é o esporte mais popular do Brasil?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Vôlei" },
+                { "id_alt": 2, "alternativa": "Futebol" },
+                { "id_alt": 3, "alternativa": "Basquete" },
+                { "id_alt": 4, "alternativa": "Tênis" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV1066",
+            "nivel": 1,
+            "tema": "Geografia",
+            "pergunta": "Em que continente está localizado o Egito?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "África" },
+                { "id_alt": 2, "alternativa": "Ásia" },
+                { "id_alt": 3, "alternativa": "América" },
+                { "id_alt": 4, "alternativa": "Europa" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV1067",
+            "nivel": 1,
+            "tema": "História",
+            "pergunta": "Quem foi o líder da Revolução Russa de 1917?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Leon Trotsky" },
+                { "id_alt": 2, "alternativa": "Joseph Stalin" },
+                { "id_alt": 3, "alternativa": "Vladimir Lenin" },
+                { "id_alt": 4, "alternativa": "Nikita Khrushchov" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV1068",
+            "nivel": 1,
+            "tema": "Geografia",
+            "pergunta": "Qual é o continente onde se encontra o Egito?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "África" },
+                { "id_alt": 2, "alternativa": "Ásia" },
+                { "id_alt": 3, "alternativa": "Europa" },
+                { "id_alt": 4, "alternativa": "Oceania" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV1069",
+            "nivel": 1,
+            "tema": "História",
+            "pergunta": "Quem foi o primeiro presidente dos Estados Unidos?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Thomas Jefferson" },
+                { "id_alt": 2, "alternativa": "George Washington" },
+                { "id_alt": 3, "alternativa": "Abraham Lincoln" },
+                { "id_alt": 4, "alternativa": "Franklin D. Roosevelt" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV1070",
+            "nivel": 1,
+            "tema": "Ciência",
+            "pergunta": "Qual é o maior planeta do Sistema Solar?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Terra" },
+                { "id_alt": 2, "alternativa": "Júpiter" },
+                { "id_alt": 3, "alternativa": "Saturno" },
+                { "id_alt": 4, "alternativa": "Marte" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV1071",
+            "nivel": 1,
+            "tema": "Matemática",
+            "pergunta": "Qual é a soma de 5 + 7?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "10" },
+                { "id_alt": 2, "alternativa": "12" },
+                { "id_alt": 3, "alternativa": "13" },
+                { "id_alt": 4, "alternativa": "15" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV1072",
+            "nivel": 1,
+            "tema": "Literatura",
+            "pergunta": "Quem escreveu 'Dom Casmurro'?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Machado de Assis" },
+                { "id_alt": 2, "alternativa": "José de Alencar" },
+                { "id_alt": 3, "alternativa": "Graciliano Ramos" },
+                { "id_alt": 4, "alternativa": "Clarice Lispector" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV1073",
+            "nivel": 1,
+            "tema": "Geografia",
+            "pergunta": "Qual é a capital da França?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Madri" },
+                { "id_alt": 2, "alternativa": "Londres" },
+                { "id_alt": 3, "alternativa": "Paris" },
+                { "id_alt": 4, "alternativa": "Roma" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV1074",
+            "nivel": 1,
+            "tema": "História",
+            "pergunta": "Em que ano ocorreu a Proclamação da República no Brasil?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "1889" },
+                { "id_alt": 2, "alternativa": "1822" },
+                { "id_alt": 3, "alternativa": "1888" },
+                { "id_alt": 4, "alternativa": "1930" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV1075",
+            "nivel": 1,
+            "tema": "Ciência",
+            "pergunta": "O que é H2O?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Oxigênio" },
+                { "id_alt": 2, "alternativa": "Água" },
+                { "id_alt": 3, "alternativa": "Hidrogênio" },
+                { "id_alt": 4, "alternativa": "Óleo" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV1076",
+            "nivel": 1,
+            "tema": "Matemática",
+            "pergunta": "Qual é o valor de 10 x 10?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "50" },
+                { "id_alt": 2, "alternativa": "100" },
+                { "id_alt": 3, "alternativa": "200" },
+                { "id_alt": 4, "alternativa": "1" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV1077",
+            "nivel": 1,
+            "tema": "Literatura",
+            "pergunta": "Quem escreveu 'A Moreninha'?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "José de Alencar" },
+                { "id_alt": 2, "alternativa": "Machado de Assis" },
+                { "id_alt": 3, "alternativa": "Raul Pompeia" },
+                { "id_alt": 4, "alternativa": "Clarice Lispector" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV1078",
+            "nivel": 1,
+            "tema": "Geografia",
+            "pergunta": "Qual é o maior país do mundo em área?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "China" },
+                { "id_alt": 2, "alternativa": "Brasil" },
+                { "id_alt": 3, "alternativa": "Estados Unidos" },
+                { "id_alt": 4, "alternativa": "Rússia" }
+            ],
+            "correta": 4
+        },
+        {
+            "id": "NV1079",
+            "nivel": 1,
+            "tema": "História",
+            "pergunta": "Quem foi o presidente do Brasil durante a Segunda Guerra Mundial?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Getúlio Vargas" },
+                { "id_alt": 2, "alternativa": "Juscelino Kubitschek" },
+                { "id_alt": 3, "alternativa": "Washington Luís" },
+                { "id_alt": 4, "alternativa": "João Goulart" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV1080",
+            "nivel": 1,
+            "tema": "Ciência",
+            "pergunta": "Quem é considerado o pai da teoria da evolução?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Isaac Newton" },
+                { "id_alt": 2, "alternativa": "Albert Einstein" },
+                { "id_alt": 3, "alternativa": "Charles Darwin" },
+                { "id_alt": 4, "alternativa": "Galileu Galilei" }
+            ],
+            "correta": 3
         }
         
     ]

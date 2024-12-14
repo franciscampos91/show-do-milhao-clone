@@ -1,0 +1,1044 @@
+{
+    "pergunta": [
+        {
+            "id": "NV3001",
+            "nivel": 3,
+            "tema": "Geografia",
+            "pergunta": "Qual é o ponto mais baixo da Terra?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "O Mar Morto" },
+                { "id_alt": 2, "alternativa": "A Fossa das Marianas" },
+                { "id_alt": 3, "alternativa": "A Depressão do Vale da Morte" },
+                { "id_alt": 4, "alternativa": "O Lago Urmia" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV3002",
+            "nivel": 3,
+            "tema": "História",
+            "pergunta": "Qual civilização antiga construiu as pirâmides de Gizé?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Egípcia" },
+                { "id_alt": 2, "alternativa": "Mesopotâmica" },
+                { "id_alt": 3, "alternativa": "Maias" },
+                { "id_alt": 4, "alternativa": "Romana" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV3003",
+            "nivel": 3,
+            "tema": "Ciência",
+            "pergunta": "O que é a teoria das cordas?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Uma teoria da física que tenta unificar todas as forças fundamentais da natureza" },
+                { "id_alt": 2, "alternativa": "Uma teoria que sugere que o universo é uma simulação computacional" },
+                { "id_alt": 3, "alternativa": "A explicação para o comportamento das partículas subatômicas em colapsos quânticos" },
+                { "id_alt": 4, "alternativa": "A teoria que descreve a origem do Big Bang" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV3004",
+            "nivel": 3,
+            "tema": "Matemática",
+            "pergunta": "Qual é o valor de 2 elevado à potência de 10?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "1024" },
+                { "id_alt": 2, "alternativa": "1000" },
+                { "id_alt": 3, "alternativa": "512" },
+                { "id_alt": 4, "alternativa": "2048" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV3005",
+            "nivel": 3,
+            "tema": "Literatura",
+            "pergunta": "Quem escreveu 'Moby Dick'?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Herman Melville" },
+                { "id_alt": 2, "alternativa": "Mark Twain" },
+                { "id_alt": 3, "alternativa": "Ernest Hemingway" },
+                { "id_alt": 4, "alternativa": "F. Scott Fitzgerald" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV3006",
+            "nivel": 3,
+            "tema": "Geografia",
+            "pergunta": "Qual país possui a maior quantidade de ilhas no mundo?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Finlândia" },
+                { "id_alt": 2, "alternativa": "Suécia" },
+                { "id_alt": 3, "alternativa": "Indonésia" },
+                { "id_alt": 4, "alternativa": "Canadá" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV3007",
+            "nivel": 3,
+            "tema": "História",
+            "pergunta": "Quem foi o primeiro imperador da China unificada?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Laozi" },
+                { "id_alt": 2, "alternativa": "Qin Shi Huang" },
+                { "id_alt": 3, "alternativa": "Kublai Khan" },
+                { "id_alt": 4, "alternativa": "Sun Yat-sen" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV3008",
+            "nivel": 3,
+            "tema": "Ciência",
+            "pergunta": "Qual é a partícula subatômica que tem carga negativa?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Nêutron" },
+                { "id_alt": 2, "alternativa": "Elétron" },
+                { "id_alt": 3, "alternativa": "Próton" },
+                { "id_alt": 4, "alternativa": "Fóton" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV3009",
+            "nivel": 3,
+            "tema": "Matemática",
+            "pergunta": "Qual é o valor de π (pi) arredondado a 5 casas decimais?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "3,14159" },
+                { "id_alt": 2, "alternativa": "3,1416" },
+                { "id_alt": 3, "alternativa": "3,142" },
+                { "id_alt": 4, "alternativa": "3,144" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV3010",
+            "nivel": 3,
+            "tema": "Esportes",
+            "pergunta": "Quem detém o recorde de mais gols marcados em Copas do Mundo?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Pelé" },
+                { "id_alt": 2, "alternativa": "Marta" },
+                { "id_alt": 3, "alternativa": "Miroslav Klose" },
+                { "id_alt": 4, "alternativa": "Cristiano Ronaldo" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV3011",
+            "nivel": 3,
+            "tema": "Cultura Geral",
+            "pergunta": "Qual é a cidade mais antiga do mundo ainda habitada?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Jerusalém" },
+                { "id_alt": 2, "alternativa": "Damasco" },
+                { "id_alt": 3, "alternativa": "Atenas" },
+                { "id_alt": 4, "alternativa": "Cairo" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV3012",
+            "nivel": 3,
+            "tema": "Geografia",
+            "pergunta": "Em que continente fica o deserto de Atacama?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "África" },
+                { "id_alt": 2, "alternativa": "Ásia" },
+                { "id_alt": 3, "alternativa": "América do Sul" },
+                { "id_alt": 4, "alternativa": "Oceania" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV3013",
+            "nivel": 3,
+            "tema": "Geografia",
+            "pergunta": "Qual é o maior país do mundo em termos de área territorial?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "China" },
+                { "id_alt": 2, "alternativa": "Estados Unidos" },
+                { "id_alt": 3, "alternativa": "Canadá" },
+                { "id_alt": 4, "alternativa": "Rússia" }
+            ],
+            "correta": 4
+        },
+        {
+            "id": "NV3014",
+            "nivel": 3,
+            "tema": "História",
+            "pergunta": "Quem foi o responsável pela unificação da Alemanha no século XIX?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Otto von Bismarck" },
+                { "id_alt": 2, "alternativa": "Adolf Hitler" },
+                { "id_alt": 3, "alternativa": "Kaiser Wilhelm II" },
+                { "id_alt": 4, "alternativa": "Friedrich Engels" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV3015",
+            "nivel": 3,
+            "tema": "Ciência",
+            "pergunta": "Qual elemento químico tem o maior número atômico?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Uranium" },
+                { "id_alt": 2, "alternativa": "Plutonium" },
+                { "id_alt": 3, "alternativa": "Oganesson" },
+                { "id_alt": 4, "alternativa": "Tennessine" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV3016",
+            "nivel": 3,
+            "tema": "Matemática",
+            "pergunta": "Qual é o valor da constante de Euler (e) arredondado a 3 casas decimais?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "2,718" },
+                { "id_alt": 2, "alternativa": "3,141" },
+                { "id_alt": 3, "alternativa": "1,618" },
+                { "id_alt": 4, "alternativa": "1,414" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV3017",
+            "nivel": 3,
+            "tema": "Literatura",
+            "pergunta": "Quem escreveu o romance '1984'?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "George Orwell" },
+                { "id_alt": 2, "alternativa": "Aldous Huxley" },
+                { "id_alt": 3, "alternativa": "Ray Bradbury" },
+                { "id_alt": 4, "alternativa": "Margaret Atwood" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV3018",
+            "nivel": 3,
+            "tema": "Geografia",
+            "pergunta": "Qual é o maior oceano do mundo?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Oceano Atlântico" },
+                { "id_alt": 2, "alternativa": "Oceano Índico" },
+                { "id_alt": 3, "alternativa": "Oceano Ártico" },
+                { "id_alt": 4, "alternativa": "Oceano Pacífico" }
+            ],
+            "correta": 4
+        },
+        {
+            "id": "NV3019",
+            "nivel": 3,
+            "tema": "História",
+            "pergunta": "Qual foi o ano da queda do Muro de Berlim?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "1985" },
+                { "id_alt": 2, "alternativa": "1989" },
+                { "id_alt": 3, "alternativa": "1991" },
+                { "id_alt": 4, "alternativa": "1995" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV3020",
+            "nivel": 3,
+            "tema": "Ciência",
+            "pergunta": "Quem é conhecido como o pai da teoria da relatividade?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Isaac Newton" },
+                { "id_alt": 2, "alternativa": "Galileo Galilei" },
+                { "id_alt": 3, "alternativa": "Albert Einstein" },
+                { "id_alt": 4, "alternativa": "Nikola Tesla" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV3021",
+            "nivel": 3,
+            "tema": "Matemática",
+            "pergunta": "Qual é o valor de 3 elevado à potência de 4?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "81" },
+                { "id_alt": 2, "alternativa": "64" },
+                { "id_alt": 3, "alternativa": "27" },
+                { "id_alt": 4, "alternativa": "12" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV3022",
+            "nivel": 3,
+            "tema": "Literatura",
+            "pergunta": "Quem escreveu 'Dom Quixote'?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "William Shakespeare" },
+                { "id_alt": 2, "alternativa": "Miguel de Cervantes" },
+                { "id_alt": 3, "alternativa": "Fiódor Dostoiévski" },
+                { "id_alt": 4, "alternativa": "Victor Hugo" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV3023",
+            "nivel": 3,
+            "tema": "Geografia",
+            "pergunta": "Em que país está localizada a cidade de Petra, uma das novas sete maravilhas do mundo?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Egito" },
+                { "id_alt": 2, "alternativa": "Jordânia" },
+                { "id_alt": 3, "alternativa": "Líbano" },
+                { "id_alt": 4, "alternativa": "Siria" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV3024",
+            "nivel": 3,
+            "tema": "História",
+            "pergunta": "Quem foi o responsável pela independência da Índia do Império Britânico?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Mahatma Gandhi" },
+                { "id_alt": 2, "alternativa": "Jawaharlal Nehru" },
+                { "id_alt": 3, "alternativa": "Subhas Chandra Bose" },
+                { "id_alt": 4, "alternativa": "Indira Gandhi" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV3025",
+            "nivel": 3,
+            "tema": "Ciência",
+            "pergunta": "Quem descobriu a penicilina?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Louis Pasteur" },
+                { "id_alt": 2, "alternativa": "Alexander Fleming" },
+                { "id_alt": 3, "alternativa": "Marie Curie" },
+                { "id_alt": 4, "alternativa": "Gregor Mendel" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV3026",
+            "nivel": 3,
+            "tema": "Matemática",
+            "pergunta": "O que é um número primo?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Um número divisível apenas por 1 e por si mesmo" },
+                { "id_alt": 2, "alternativa": "Um número que é múltiplo de 10" },
+                { "id_alt": 3, "alternativa": "Um número divisível por 2" },
+                { "id_alt": 4, "alternativa": "Um número que não pode ser dividido por nenhum número inteiro" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV3027",
+            "nivel": 3,
+            "tema": "Literatura",
+            "pergunta": "Quem é o autor do livro 'O Grande Gatsby'?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Ernest Hemingway" },
+                { "id_alt": 2, "alternativa": "Mark Twain" },
+                { "id_alt": 3, "alternativa": "F. Scott Fitzgerald" },
+                { "id_alt": 4, "alternativa": "John Steinbeck" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV3028",
+            "nivel": 3,
+            "tema": "Geografia",
+            "pergunta": "Qual é o maior lago do mundo em volume de água?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Lago Caspian" },
+                { "id_alt": 2, "alternativa": "Lago de Genebra" },
+                { "id_alt": 3, "alternativa": "Lago Superior" },
+                { "id_alt": 4, "alternativa": "Lago Baikal" }
+            ],
+            "correta": 4
+        },
+        {
+            "id": "NV3029",
+            "nivel": 3,
+            "tema": "História",
+            "pergunta": "Em que ano ocorreu o ataque a Pearl Harbor, que levou os Estados Unidos a entrarem na Segunda Guerra Mundial?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "1940" },
+                { "id_alt": 2, "alternativa": "1941" },
+                { "id_alt": 3, "alternativa": "1942" },
+                { "id_alt": 4, "alternativa": "1943" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV3030",
+            "nivel": 3,
+            "tema": "Geografia",
+            "pergunta": "Qual é o nome da maior cadeia de montanhas do mundo?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Andes" },
+                { "id_alt": 2, "alternativa": "Himalaia" },
+                { "id_alt": 3, "alternativa": "Alpes" },
+                { "id_alt": 4, "alternativa": "Rocky Mountains" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV3031",
+            "nivel": 3,
+            "tema": "História",
+            "pergunta": "Quem foi o imperador romano que dividiu o Império Romano em duas partes?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "César Augusto" },
+                { "id_alt": 2, "alternativa": "Diocleciano" },
+                { "id_alt": 3, "alternativa": "Constantino" },
+                { "id_alt": 4, "alternativa": "Nerva" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV3032",
+            "nivel": 3,
+            "tema": "Ciência",
+            "pergunta": "Qual é o nome do processo pelo qual as plantas produzem seu alimento?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Respiração celular" },
+                { "id_alt": 2, "alternativa": "Fotossíntese" },
+                { "id_alt": 3, "alternativa": "Transpiração" },
+                { "id_alt": 4, "alternativa": "Digestão" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV3033",
+            "nivel": 3,
+            "tema": "Matemática",
+            "pergunta": "Qual é o valor de 2 elevado à potência de 8?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "128" },
+                { "id_alt": 2, "alternativa": "256" },
+                { "id_alt": 3, "alternativa": "512" },
+                { "id_alt": 4, "alternativa": "1024" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV3034",
+            "nivel": 3,
+            "tema": "Literatura",
+            "pergunta": "Quem escreveu 'Dom Casmurro'?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Machado de Assis" },
+                { "id_alt": 2, "alternativa": "José de Alencar" },
+                { "id_alt": 3, "alternativa": "Aluisio Azevedo" },
+                { "id_alt": 4, "alternativa": "Raul Pompeia" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV3035",
+            "nivel": 3,
+            "tema": "Geografia",
+            "pergunta": "Qual é o maior estado brasileiro em área?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Minas Gerais" },
+                { "id_alt": 2, "alternativa": "São Paulo" },
+                { "id_alt": 3, "alternativa": "Amazonas" },
+                { "id_alt": 4, "alternativa": "Bahia" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV3036",
+            "nivel": 3,
+            "tema": "História",
+            "pergunta": "Qual foi o nome da operação militar que iniciou a invasão da Normandia durante a Segunda Guerra Mundial?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Operação Barbarossa" },
+                { "id_alt": 2, "alternativa": "Operação Overlord" },
+                { "id_alt": 3, "alternativa": "Operação Torch" },
+                { "id_alt": 4, "alternativa": "Operação Market Garden" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV3037",
+            "nivel": 3,
+            "tema": "Ciência",
+            "pergunta": "Qual é a unidade de medida utilizada para medir a intensidade de um terremoto?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Decibel" },
+                { "id_alt": 2, "alternativa": "Hertz" },
+                { "id_alt": 3, "alternativa": "Richter" },
+                { "id_alt": 4, "alternativa": "Kelvin" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV3038",
+            "nivel": 3,
+            "tema": "Matemática",
+            "pergunta": "Qual é o valor de (3 + 2) x (5 - 3)?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "5" },
+                { "id_alt": 2, "alternativa": "10" },
+                { "id_alt": 3, "alternativa": "12" },
+                { "id_alt": 4, "alternativa": "15" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV3039",
+            "nivel": 3,
+            "tema": "Literatura",
+            "pergunta": "Quem é o autor da obra 'O Primo Basílio'?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "José de Alencar" },
+                { "id_alt": 2, "alternativa": "Machado de Assis" },
+                { "id_alt": 3, "alternativa": "Eça de Queirós" },
+                { "id_alt": 4, "alternativa": "Raul Pompeia" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV3040",
+            "nivel": 3,
+            "tema": "Geografia",
+            "pergunta": "Qual é o nome do maior lago de água doce do mundo?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Lago Baikal" },
+                { "id_alt": 2, "alternativa": "Lago Superior" },
+                { "id_alt": 3, "alternativa": "Lago Vitória" },
+                { "id_alt": 4, "alternativa": "Lago Titicaca" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV3041",
+            "nivel": 3,
+            "tema": "Geografia",
+            "pergunta": "Qual é o maior arquipélago do mundo?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Ilhas Maldivas" },
+                { "id_alt": 2, "alternativa": "Ilhas Filipinas" },
+                { "id_alt": 3, "alternativa": "Ilhas Indonésias" },
+                { "id_alt": 4, "alternativa": "Ilhas Galápagos" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV3042",
+            "nivel": 3,
+            "tema": "História",
+            "pergunta": "Quem foi o primeiro presidente da República do Brasil?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Deodoro da Fonseca" },
+                { "id_alt": 2, "alternativa": "Getúlio Vargas" },
+                { "id_alt": 3, "alternativa": "Washington Luís" },
+                { "id_alt": 4, "alternativa": "Juscelino Kubitschek" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV3043",
+            "nivel": 3,
+            "tema": "Ciência",
+            "pergunta": "Qual é o elemento químico representado pelo símbolo 'Na'?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Nióbio" },
+                { "id_alt": 2, "alternativa": "Nátron" },
+                { "id_alt": 3, "alternativa": "Níquel" },
+                { "id_alt": 4, "alternativa": "Sódio" }
+            ],
+            "correta": 4
+        },
+        {
+            "id": "NV3044",
+            "nivel": 3,
+            "tema": "Matemática",
+            "pergunta": "Qual é a equação da reta tangente à curva y = x² no ponto x = 1?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "y = 2x - 1" },
+                { "id_alt": 2, "alternativa": "y = 2x + 1" },
+                { "id_alt": 3, "alternativa": "y = x² + 2x - 1" },
+                { "id_alt": 4, "alternativa": "y = x² + 2x + 1" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV3045",
+            "nivel": 3,
+            "tema": "Literatura",
+            "pergunta": "Quem escreveu a obra 'O Cortiço'?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Machado de Assis" },
+                { "id_alt": 2, "alternativa": "Aluísio Azevedo" },
+                { "id_alt": 3, "alternativa": "Raul Pompeia" },
+                { "id_alt": 4, "alternativa": "José de Alencar" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV3046",
+            "nivel": 3,
+            "tema": "Geografia",
+            "pergunta": "Qual é o nome do continente onde se encontra o deserto de Atacama?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "África" },
+                { "id_alt": 2, "alternativa": "América do Sul" },
+                { "id_alt": 3, "alternativa": "Ásia" },
+                { "id_alt": 4, "alternativa": "Antártida" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV3047",
+            "nivel": 3,
+            "tema": "História",
+            "pergunta": "Em que ano começou a Primeira Guerra Mundial?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "1910" },
+                { "id_alt": 2, "alternativa": "1912" },
+                { "id_alt": 3, "alternativa": "1914" },
+                { "id_alt": 4, "alternativa": "1916" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV3048",
+            "nivel": 3,
+            "tema": "Ciência",
+            "pergunta": "Qual é a principal função dos ribossomos nas células?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Armazenar energia" },
+                { "id_alt": 2, "alternativa": "Sintetizar proteínas" },
+                { "id_alt": 3, "alternativa": "Controlar o ciclo celular" },
+                { "id_alt": 4, "alternativa": "Proteger a célula de vírus" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV3049",
+            "nivel": 3,
+            "tema": "Matemática",
+            "pergunta": "Qual é o valor da integral indefinida de x² dx?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "x³/3 + C" },
+                { "id_alt": 2, "alternativa": "x² + C" },
+                { "id_alt": 3, "alternativa": "2x + C" },
+                { "id_alt": 4, "alternativa": "x³ + C" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV3050",
+            "nivel": 3,
+            "tema": "Literatura",
+            "pergunta": "Quem escreveu o livro 'A Moreninha'?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Machado de Assis" },
+                { "id_alt": 2, "alternativa": "José de Alencar" },
+                { "id_alt": 3, "alternativa": "Raul Pompeia" },
+                { "id_alt": 4, "alternativa": "Joaquim Manuel de Macedo" }
+            ],
+            "correta": 4
+        },
+        {
+            "id": "NV3051",
+            "nivel": 3,
+            "tema": "Geografia",
+            "pergunta": "Qual é o país com a maior área territorial do mundo?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "China" },
+                { "id_alt": 2, "alternativa": "Estados Unidos" },
+                { "id_alt": 3, "alternativa": "Rússia" },
+                { "id_alt": 4, "alternativa": "Brasil" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV3052",
+            "nivel": 3,
+            "tema": "História",
+            "pergunta": "Qual foi o principal evento que marcou o fim da Idade Média?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "A descoberta da América" },
+                { "id_alt": 2, "alternativa": "A queda de Constantinopla" },
+                { "id_alt": 3, "alternativa": "A Revolução Francesa" },
+                { "id_alt": 4, "alternativa": "A Peste Negra" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV3053",
+            "nivel": 3,
+            "tema": "Ciência",
+            "pergunta": "Qual é a unidade de medida da resistência elétrica?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Ampère" },
+                { "id_alt": 2, "alternativa": "Ohm" },
+                { "id_alt": 3, "alternativa": "Volt" },
+                { "id_alt": 4, "alternativa": "Coulomb" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV3054",
+            "nivel": 3,
+            "tema": "Matemática",
+            "pergunta": "Qual é o determinante da matriz 2x2: [[3, 4], [2, 5]]?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "7" },
+                { "id_alt": 2, "alternativa": "11" },
+                { "id_alt": 3, "alternativa": "1" },
+                { "id_alt": 4, "alternativa": "23" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV3055",
+            "nivel": 3,
+            "tema": "Literatura",
+            "pergunta": "Quem escreveu o livro 'Dom Casmurro'?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "José de Alencar" },
+                { "id_alt": 2, "alternativa": "Machado de Assis" },
+                { "id_alt": 3, "alternativa": "Raul Pompeia" },
+                { "id_alt": 4, "alternativa": "Clarice Lispector" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV3056",
+            "nivel": 3,
+            "tema": "Geografia",
+            "pergunta": "Qual é o ponto mais alto da Terra?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Monte Kilimanjaro" },
+                { "id_alt": 2, "alternativa": "Monte Everest" },
+                { "id_alt": 3, "alternativa": "Monte Aconcágua" },
+                { "id_alt": 4, "alternativa": "Monte McKinley" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV3057",
+            "nivel": 3,
+            "tema": "História",
+            "pergunta": "Em que ano ocorreu a queda do Muro de Berlim?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "1985" },
+                { "id_alt": 2, "alternativa": "1989" },
+                { "id_alt": 3, "alternativa": "1991" },
+                { "id_alt": 4, "alternativa": "1993" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV3058",
+            "nivel": 3,
+            "tema": "Ciência",
+            "pergunta": "Qual é o nome da partícula subatômica com carga negativa?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Próton" },
+                { "id_alt": 2, "alternativa": "Neutrão" },
+                { "id_alt": 3, "alternativa": "Elétron" },
+                { "id_alt": 4, "alternativa": "Nêutron" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV3059",
+            "nivel": 3,
+            "tema": "Matemática",
+            "pergunta": "Qual é o valor de x na equação 3x - 4 = 5?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "x = 3" },
+                { "id_alt": 2, "alternativa": "x = 2" },
+                { "id_alt": 3, "alternativa": "x = 5" },
+                { "id_alt": 4, "alternativa": "x = 4" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV3060",
+            "nivel": 3,
+            "tema": "Literatura",
+            "pergunta": "Quem é o autor do livro 'Cem Anos de Solidão'?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Mario Vargas Llosa" },
+                { "id_alt": 2, "alternativa": "Gabriel García Márquez" },
+                { "id_alt": 3, "alternativa": "Julio Cortázar" },
+                { "id_alt": 4, "alternativa": "Carlos Fuentes" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV3061",
+            "nivel": 3,
+            "tema": "Geografia",
+            "pergunta": "Qual é o maior lago do mundo em volume de água?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Lago Baikal" },
+                { "id_alt": 2, "alternativa": "Lago Superior" },
+                { "id_alt": 3, "alternativa": "Mar Cáspio" },
+                { "id_alt": 4, "alternativa": "Lago de Genebra" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV3062",
+            "nivel": 3,
+            "tema": "História",
+            "pergunta": "Qual evento histórico é considerado o marco do início da Revolução Francesa?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "A assinatura da Declaração dos Direitos do Homem" },
+                { "id_alt": 2, "alternativa": "A Queda da Bastilha" },
+                { "id_alt": 3, "alternativa": "O exílio de Luís XVI" },
+                { "id_alt": 4, "alternativa": "A execução de Maria Antonieta" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV3063",
+            "nivel": 3,
+            "tema": "Ciência",
+            "pergunta": "Qual é a substância que compõe aproximadamente 70% do corpo humano?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Água" },
+                { "id_alt": 2, "alternativa": "O oxigênio" },
+                { "id_alt": 3, "alternativa": "O carbono" },
+                { "id_alt": 4, "alternativa": "O cálcio" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV3064",
+            "nivel": 3,
+            "tema": "Matemática",
+            "pergunta": "Qual é o valor de 2 elevado à potência de 10?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "512" },
+                { "id_alt": 2, "alternativa": "1024" },
+                { "id_alt": 3, "alternativa": "256" },
+                { "id_alt": 4, "alternativa": "128" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV3065",
+            "nivel": 3,
+            "tema": "Geografia",
+            "pergunta": "Qual é a maior ilha do mundo em termos de área?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Grã-Bretanha" },
+                { "id_alt": 2, "alternativa": "Groenlândia" },
+                { "id_alt": 3, "alternativa": "Borneu" },
+                { "id_alt": 4, "alternativa": "Sumatra" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV3066",
+            "nivel": 3,
+            "tema": "Literatura",
+            "pergunta": "Qual escritor britânico é conhecido como o autor de '1984' e 'A Revolução dos Bichos'?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Aldous Huxley" },
+                { "id_alt": 2, "alternativa": "George Orwell" },
+                { "id_alt": 3, "alternativa": "Virginia Woolf" },
+                { "id_alt": 4, "alternativa": "F. Scott Fitzgerald" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV3067",
+            "nivel": 3,
+            "tema": "História",
+            "pergunta": "Quem foi o primeiro presidente dos Estados Unidos da América?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Abraham Lincoln" },
+                { "id_alt": 2, "alternativa": "Thomas Jefferson" },
+                { "id_alt": 3, "alternativa": "George Washington" },
+                { "id_alt": 4, "alternativa": "John Adams" }
+            ],
+            "correta": 3
+        },
+        {
+            "id": "NV3068",
+            "nivel": 3,
+            "tema": "Ciência",
+            "pergunta": "Quem é conhecido como o pai da teoria da evolução das espécies?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Louis Pasteur" },
+                { "id_alt": 2, "alternativa": "Albert Einstein" },
+                { "id_alt": 3, "alternativa": "Isaac Newton" },
+                { "id_alt": 4, "alternativa": "Charles Darwin" }
+            ],
+            "correta": 4
+        },
+        {
+            "id": "NV3069",
+            "nivel": 3,
+            "tema": "Matemática",
+            "pergunta": "Qual é o valor de 3 elevado à potência de 4?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "81" },
+                { "id_alt": 2, "alternativa": "64" },
+                { "id_alt": 3, "alternativa": "27" },
+                { "id_alt": 4, "alternativa": "12" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV3070",
+            "nivel": 3,
+            "tema": "Geografia",
+            "pergunta": "Qual é o maior oceano do mundo?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Oceano Atlântico" },
+                { "id_alt": 2, "alternativa": "Oceano Pacífico" },
+                { "id_alt": 3, "alternativa": "Oceano Índico" },
+                { "id_alt": 4, "alternativa": "Oceano Ártico" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV3071",
+            "nivel": 3,
+            "tema": "Literatura",
+            "pergunta": "Qual é o nome da obra de James Joyce que revolucionou a literatura moderna?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Ulisses" },
+                { "id_alt": 2, "alternativa": "O Grande Gatsby" },
+                { "id_alt": 3, "alternativa": "Cem Anos de Solidão" },
+                { "id_alt": 4, "alternativa": "O Retrato de Dorian Gray" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV3072",
+            "nivel": 3,
+            "tema": "História",
+            "pergunta": "Quem foi o último imperador romano?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Augusto" },
+                { "id_alt": 2, "alternativa": "Nero" },
+                { "id_alt": 3, "alternativa": "Constantino" },
+                { "id_alt": 4, "alternativa": "Rômulo Augústulo" }
+            ],
+            "correta": 4
+        },
+        {
+            "id": "NV3073",
+            "nivel": 3,
+            "tema": "Ciência",
+            "pergunta": "O que é o princípio da inércia, formulado por Isaac Newton?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Corpos em movimento tendem a permanecer em movimento, a não ser que uma força externa atue sobre eles" },
+                { "id_alt": 2, "alternativa": "A aceleração de um corpo é diretamente proporcional à sua massa" },
+                { "id_alt": 3, "alternativa": "A força de gravidade age sobre todos os corpos de forma igual" },
+                { "id_alt": 4, "alternativa": "Para toda ação há uma reação de igual intensidade e direção" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV3074",
+            "nivel": 3,
+            "tema": "Matemática",
+            "pergunta": "Qual é a área de um triângulo com base 10 cm e altura 5 cm?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "15 cm²" },
+                { "id_alt": 2, "alternativa": "25 cm²" },
+                { "id_alt": 3, "alternativa": "50 cm²" },
+                { "id_alt": 4, "alternativa": "30 cm²" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV3075",
+            "nivel": 3,
+            "tema": "Geografia",
+            "pergunta": "Qual é o nome do maior rio do mundo em volume de água?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Rio Amazonas" },
+                { "id_alt": 2, "alternativa": "Rio Nilo" },
+                { "id_alt": 3, "alternativa": "Rio Yangtzé" },
+                { "id_alt": 4, "alternativa": "Rio Mississippi" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV3076",
+            "nivel": 3,
+            "tema": "Literatura",
+            "pergunta": "Quem escreveu o livro 'O Processo', uma obra-prima da literatura moderna?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Friedrich Nietzsche" },
+                { "id_alt": 2, "alternativa": "Franz Kafka" },
+                { "id_alt": 3, "alternativa": "Albert Camus" },
+                { "id_alt": 4, "alternativa": "Jean-Paul Sartre" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV3077",
+            "nivel": 3,
+            "tema": "História",
+            "pergunta": "Quem foi o líder da Revolução Russa de 1917?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Leon Trotsky" },
+                { "id_alt": 2, "alternativa": "Vladimir Lenin" },
+                { "id_alt": 3, "alternativa": "Joseph Stalin" },
+                { "id_alt": 4, "alternativa": "Mikhail Gorbachev" }
+            ],
+            "correta": 2
+        },
+        {
+            "id": "NV3078",
+            "nivel": 3,
+            "tema": "Ciência",
+            "pergunta": "Qual é a unidade básica do sistema métrico para medir a massa?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "Grama" },
+                { "id_alt": 2, "alternativa": "Quilo" },
+                { "id_alt": 3, "alternativa": "Litro" },
+                { "id_alt": 4, "alternativa": "Metro" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV3079",
+            "nivel": 3,
+            "tema": "Matemática",
+            "pergunta": "Qual é o valor de (2³ + 4²) ÷ 2?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "10" },
+                { "id_alt": 2, "alternativa": "14" },
+                { "id_alt": 3, "alternativa": "16" },
+                { "id_alt": 4, "alternativa": "20" }
+            ],
+            "correta": 1
+        },
+        {
+            "id": "NV3080",
+            "nivel": 3,
+            "tema": "Geografia",
+            "pergunta": "Qual é o continente que possui o maior número de países?",
+            "alternativas": [
+                { "id_alt": 1, "alternativa": "África" },
+                { "id_alt": 2, "alternativa": "Ásia" },
+                { "id_alt": 3, "alternativa": "Europa" },
+                { "id_alt": 4, "alternativa": "América" }
+            ],
+            "correta": 1
+        }
+    ]
+}
