@@ -1,11 +1,16 @@
 console.log("Carregou script.js");
 
 let perguntas = {};
+let perguntas_nivel1 = {};
+let perguntas_nivel2 = {};
+let perguntas_nivel3 = {};
+let perguntas_milhao = {};
+
 
 /** variáveis globais */
-let marcador = 0;
 let acertos = 0;
 let nivel_pergunta = 1;
+let indice_pergunta = 0;
 let jogador = "Jogador";
 let habilita_escolha = true;
 let errar = 0;
@@ -25,7 +30,11 @@ const caixaMensagem = document.getElementById("caixa_mensagem");
 
 novoJogo();
 
-carregarPerguntas();
+//carregarPerguntas();
+carregaPerguntasNivel1();
+carregaPerguntasNivel2();
+carregaPerguntasNivel3();
+carregaPerguntasMilhao();
 
 //carregarPergunta();
 
@@ -86,7 +95,16 @@ function carregarPergunta() {
 
   nivelPergunta(); // Define o nível da pergunta baseado nos acertos
 
-  const perguntaAtual = perguntas.pergunta[marcador]; // Obtém a pergunta atual
+  if (nivel_pergunta == 1 ){
+    perguntaAtual = perguntas_nivel1[indice_pergunta];
+  } else if (nivel_pergunta == 2){
+    perguntaAtual = perguntas_nivel2[indice_pergunta];
+  } else if (nivel_pergunta == 3){
+    perguntaAtual = perguntas_nivel3[indice_pergunta];
+  } else {
+    perguntaAtual = perguntas_milhao[indice_pergunta];
+  }
+
 
   // Exibe a pergunta e alternativas na tela
   texto_pergunta.innerHTML = perguntaAtual.pergunta;
@@ -97,6 +115,10 @@ function carregarPergunta() {
 
   respostaCorreta = perguntaAtual.correta; // A resposta correta
   habilita_escolha = true; // Habilita a escolha de alternativas
+  console.log(`Nível pergunta: ${perguntaAtual.nivel}`);
+  console.log(`ID pergunta: ${perguntaAtual.id}`);
+  console.log(`Indice pergunta: ${indice_pergunta}`);
+
 }
 
 function voceEstaCertoDisso(cliclado) {
@@ -130,14 +152,22 @@ function verificaCorreta() {
 
   if (respostaClicada == respostaCorreta) {
     console.log("certa resposta...");
+    
     caixaMensagem.innerHTML = `<div id="certo_disso">
-            <p>Certa resposta!</p>
-            <button class="btn btn-dark" id="btn-sim" style="width: 200px" onclick="proximaPergunta();">Próxima pergunta</button>
-        </div>`;
-
-    marcador++;
+    <p>Certa resposta!</p>
+    <button class="btn btn-dark" id="btn-sim" style="width: 200px" onclick="proximaPergunta();">Próxima pergunta</button>
+    </div>`;
+    
     acertos++;
+    console.log(`Acertos: ${acertos}`);
     habilita_escolha = false;
+
+    //caso troque de nível, o índice da pergunta será zerado
+    if (acertos==5 || acertos==10 || acertos==15) {
+      indice_pergunta = 0;
+    } else {
+      indice_pergunta++;
+    }
   } else {
     caixaMensagem.innerHTML = `<div id="certo_disso">
             <p>Resposta errada!</p>
@@ -536,21 +566,172 @@ function pular() {
     document.getElementById("pular3").setAttribute("disabled", "");
     document.getElementById("pular3").classList = "ajuda btn_disabled";
     pulos--;
-    marcador++;
+    indice_pergunta++;
     carregarPergunta();
   } else if (pulos == 2) {
     document.getElementById("pular2").setAttribute("disabled", "");
     document.getElementById("pular2").classList = "ajuda btn_disabled";
     pulos--;
-    marcador++;
+    indice_pergunta++;
     carregarPergunta();
   } else if (pulos == 1) {
     document.getElementById("pular1").setAttribute("disabled", "");
     document.getElementById("pular1").classList = "ajuda btn_disabled";
     pulos--;
-    marcador++;
+    indice_pergunta++;
     carregarPergunta();
   }
 
   caixaMensagem.innerHTML = ``;
+}
+
+
+
+async function carregaPerguntasNivel1()
+{
+  let p = {};  // Inicializa 'p' como objeto vazio
+  try {
+    // Faz a requisição para o arquivo JSON
+    const response = await fetch("assets/data/perguntas_nivel_1.json");
+
+    // Verifica se a resposta foi bem-sucedida
+    if (!response.ok) {
+      throw new Error(`Erro ao carregar JSON: ${response.status}`);
+    }
+
+    // Converte a resposta para JSON
+    const dados = await response.json();
+
+    // Verifica se os dados possuem a chave "pergunta" e embaralha o array
+    if (dados.pergunta && Array.isArray(dados.pergunta)) {
+      // Embaralha o array de perguntas
+      for (let i = dados.pergunta.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [dados.pergunta[i], dados.pergunta[j]] = [dados.pergunta[j], dados.pergunta[i]];
+      }
+
+      // Atribui as perguntas ao 'p'
+      p = dados.pergunta;  // 'p' agora é um array
+    }
+
+  } catch (error) {
+    console.error("Erro ao carregar os dados:", error);
+  }
+
+  // Aqui usamos slice() diretamente em 'p', que agora é um array
+  perguntas_nivel1 = p.slice(0, 8);  // Pega os primeiros oito elementos
+  console.log(perguntas_nivel1);  // Exibe o primeiro item da lista
+  carregarPergunta(); // Chama a função para carregar a primeira pergunta após carregar as perguntas
+  
+  
+}
+
+
+async function carregaPerguntasNivel2()
+{
+  let p = {};  // Inicializa 'p' como objeto vazio
+  try {
+    // Faz a requisição para o arquivo JSON
+    const response = await fetch("assets/data/perguntas_nivel_2.json");
+
+    // Verifica se a resposta foi bem-sucedida
+    if (!response.ok) {
+      throw new Error(`Erro ao carregar JSON: ${response.status}`);
+    }
+
+    // Converte a resposta para JSON
+    const dados = await response.json();
+
+    // Verifica se os dados possuem a chave "pergunta" e embaralha o array
+    if (dados.pergunta && Array.isArray(dados.pergunta)) {
+      // Embaralha o array de perguntas
+      for (let i = dados.pergunta.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [dados.pergunta[i], dados.pergunta[j]] = [dados.pergunta[j], dados.pergunta[i]];
+      }
+
+      // Atribui as perguntas ao 'p'
+      p = dados.pergunta;  // 'p' agora é um array
+    }
+
+  } catch (error) {
+    console.error("Erro ao carregar os dados:", error);
+  }
+
+  // Aqui usamos slice() diretamente em 'p', que agora é um array
+  perguntas_nivel2 = p.slice(0, 8);  // Pega os primeiros oito elementos
+  console.log(perguntas_nivel2);  // Exibe o primeiro item da lista
+}
+
+
+async function carregaPerguntasNivel3()
+{
+  let p = {};  // Inicializa 'p' como objeto vazio
+  try {
+    // Faz a requisição para o arquivo JSON
+    const response = await fetch("assets/data/perguntas_nivel_3.json");
+
+    // Verifica se a resposta foi bem-sucedida
+    if (!response.ok) {
+      throw new Error(`Erro ao carregar JSON: ${response.status}`);
+    }
+
+    // Converte a resposta para JSON
+    const dados = await response.json();
+
+    // Verifica se os dados possuem a chave "pergunta" e embaralha o array
+    if (dados.pergunta && Array.isArray(dados.pergunta)) {
+      // Embaralha o array de perguntas
+      for (let i = dados.pergunta.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [dados.pergunta[i], dados.pergunta[j]] = [dados.pergunta[j], dados.pergunta[i]];
+      }
+
+      // Atribui as perguntas ao 'p'
+      p = dados.pergunta;  // 'p' agora é um array
+    }
+
+  } catch (error) {
+    console.error("Erro ao carregar os dados:", error);
+  }
+
+  // Aqui usamos slice() diretamente em 'p', que agora é um array
+  perguntas_nivel3 = p.slice(0, 8);  // Pega os primeiros oito elementos
+  console.log(perguntas_nivel3);  // Exibe o primeiro item da lista
+}
+
+
+async function carregaPerguntasMilhao() {
+  let p = {};  // Inicializa 'p' como objeto vazio
+  try {
+    // Faz a requisição para o arquivo JSON
+    const response = await fetch("assets/data/perguntas_nivel_4.json");
+
+    // Verifica se a resposta foi bem-sucedida
+    if (!response.ok) {
+      throw new Error(`Erro ao carregar JSON: ${response.status}`);
+    }
+
+    // Converte a resposta para JSON
+    const dados = await response.json();
+
+    // Verifica se os dados possuem a chave "pergunta" e embaralha o array
+    if (dados.pergunta && Array.isArray(dados.pergunta)) {
+      // Embaralha o array de perguntas
+      for (let i = dados.pergunta.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [dados.pergunta[i], dados.pergunta[j]] = [dados.pergunta[j], dados.pergunta[i]];
+      }
+
+      // Atribui as perguntas ao 'p'
+      p = dados.pergunta;  // 'p' agora é um array
+    }
+
+  } catch (error) {
+    console.error("Erro ao carregar os dados:", error);
+  }
+
+  // Aqui usamos slice() diretamente em 'p', que agora é um array
+  perguntas_milhao = p.slice(0, 1);  // Pega o primeiro elemento
+  console.log(perguntas_milhao);  // Exibe o primeiro item da lista
 }
